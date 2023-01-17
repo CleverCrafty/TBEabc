@@ -1,0 +1,16 @@
+characters={
+	COL_alfonso_lópez_pumarejo={
+		name="阿尔韦托·耶拉斯·卡马戈"
+		portraits={
+			civilian={
+				large="gfx/leaders/BLJ/a_er_wei_tuo.dds"
+			}
+		}
+		country_leader={
+			ideology=liberal_democracy_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

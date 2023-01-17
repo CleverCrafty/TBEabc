@@ -1,0 +1,44 @@
+
+defined_text = { 
+	name = Superevents_getpicture
+		
+			
+	text = { trigger = { check_variable = { global.se_display = 1 } } localization_key = GFX_Superevents_1 }
+	text = { trigger = { check_variable = { global.se_display = 2 } } localization_key = GFX_Superevents_2 }
+	text = { trigger = { check_variable = { global.se_display = 3 } } localization_key = GFX_Superevents_3 }
+	text = { trigger = { check_variable = { global.se_display = 4 } } localization_key = GFX_Superevents_4 }
+	text = { trigger = { check_variable = { global.se_display = 5 } } localization_key = GFX_Superevents_5 }
+	text = { trigger = { check_variable = { global.se_display = 6 } } localization_key = GFX_Superevents_6 }
+	text = { trigger = { check_variable = { global.se_display = 7 } } localization_key = GFX_Superevents_7 }
+	text = { trigger = { check_variable = { global.se_display = 8 } } localization_key = GFX_Superevents_8 }
+	text = { trigger = { check_variable = { global.se_display = 9 } } localization_key = GFX_Superevents_9 }
+	text = { trigger = { check_variable = { global.se_display = 10 } } localization_key = GFX_Superevents_10 }
+	text = { trigger = { check_variable = { global.se_display = 11 } } localization_key = GFX_Superevents_11 }
+	text = { trigger = { check_variable = { global.se_display = 12 } } localization_key = GFX_Superevents_12 }
+	text = { trigger = { check_variable = { global.se_display = 13 } } localization_key = GFX_Superevents_13 }
+	text = { trigger = { check_variable = { global.se_display = 14 } } localization_key = GFX_Superevents_14 }
+	text = { trigger = { check_variable = { global.se_display = 15 } } localization_key = GFX_Superevents_15 }
+	text = { trigger = { check_variable = { global.se_display = 16 } } localization_key = GFX_Superevents_16 }
+	text = { trigger = { check_variable = { global.se_display = 17 } } localization_key = GFX_Superevents_17 }
+	text = { trigger = { check_variable = { global.se_display = 18 } } localization_key = GFX_Superevents_18 }
+	text = { trigger = { check_variable = { global.se_display = 19 } } localization_key = GFX_Superevents_19 }
+	text = { trigger = { check_variable = { global.se_display = 20 } } localization_key = GFX_Superevents_20 }
+	text = { trigger = { check_variable = { global.se_display = 21 } } localization_key = GFX_Superevents_21 }
+	text = { trigger = { check_variable = { global.se_display = 22 } } localization_key = GFX_Superevents_22 }
+	text = { trigger = { check_variable = { global.se_display = 23 } } localization_key = GFX_Superevents_23 }
+	text = { trigger = { check_variable = { global.se_display = 24 } } localization_key = GFX_Superevents_24 }
+	text = { trigger = { check_variable = { global.se_display = 25 } } localization_key = GFX_Superevents_25 }
+	text = { trigger = { check_variable = { global.se_display = 26 } } localization_key = GFX_Superevents_26 }
+	text = { trigger = { check_variable = { global.se_display = 27 } } localization_key = GFX_Superevents_27 }
+	text = { trigger = { check_variable = { global.se_display = 28 } } localization_key = GFX_Superevents_28 }
+	text = { trigger = { check_variable = { global.se_display = 29 } } localization_key = GFX_Superevents_29 }
+	text = { trigger = { check_variable = { global.se_display = 30 } } localization_key = GFX_Superevents_30 }
+	
+	text = {
+		trigger = { 
+		}
+		localization_key = GFX_Superevents_pic_entry
+	}	
+}
+
+

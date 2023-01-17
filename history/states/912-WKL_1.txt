@@ -1,0 +1,18 @@
+state={
+	id=912
+	name="STATE_912"
+
+	history={
+		owner = ROM
+		add_core_of = ROM
+
+	}
+
+	provinces={
+		476 3430 6455 9423 9435 6429
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

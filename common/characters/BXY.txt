@@ -1,0 +1,16 @@
+characters = {
+	BXY_haidelixi = {
+		name = "莱因哈德.海德里希"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BXY/haidelixi.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_haidelixi_DESC"
+			ideology = nazim
+			traits= {  }
+			expire="1999.1.1.1"
+		}
+    }
+}

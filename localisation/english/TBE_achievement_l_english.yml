@@ -1,0 +1,6 @@
+﻿l_english:
+ TBE_achievement:0 "TBE成就"
+ TBE_to_be_a_Lucky_programer_NAME:0 "幸运（不幸）的开发者"
+ TBE_to_be_a_Lucky_programer_DESC:0 "恭喜你用debug模式打开TBE，接下来有114514条bug和1919810个企划等待你完成， 请加油哦！"
+ TBE_to_be_a_Lucky_programer_trigger:0 "参与代码调试"
+ TBE_to_be_a_Lucky_programer_tt:0 "参与代码调试"

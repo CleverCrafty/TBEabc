@@ -1,0 +1,60 @@
+guiTypes = {
+	
+	#夏国美信仰值
+	containerWindowType = {
+		name = "xyz_window"
+		position = { x= 966 y = 4 }
+		clipping = no
+		size = { width=100 height=30 }
+		Orientation = UPPER_LEFT
+		
+		background = {
+			name = "bg"
+			quadTextureSprite ="GFX_mini_tooltip"
+		}
+
+		iconType = {
+			name ="xyz_icon"
+			spriteType = "GFX_xyz_icon"
+			position = { x= 4 y = 4 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "xyz_tooltip"
+		}
+		
+		instantTextBoxType = {
+			name ="xyz_value"
+			position = { x= 30 y = 5 }
+			font = "hoi_18mbs"
+			text = "xyz_value_text"
+			pdx_tooltip = "xyz_tooltip"
+			format = left
+			maxWidth = 66
+			maxHeight = 24
+			fixedsize = yes
+		}
+	}
+	
+	#夏国美信仰值商店
+	containerWindowType ={
+	name = "xyz_shop_button_window"
+	position = { x = 4001 y = 314 }
+	
+	buttonType = {
+		name = "xyz_shop_button"
+		position = { x = 0 y = 0 }
+		quadTextureSprite ="GFX_small_button_71x26"
+		buttonFont = "hoi_16mbs"
+		buttonText = "xyz_shop_button_text"
+		pdx_tooltip = "xyz_shop_button_tooltip"
+		clicksound = click_default
+		shortcut = "x"
+	}
+}
+
+containerWindowType ={
+	name = "xyz_shop_window"
+	position = { x = 4001 y = 314 }
+	Orientation = center
+	
+}
+}

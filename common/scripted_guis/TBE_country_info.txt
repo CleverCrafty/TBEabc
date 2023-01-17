@@ -1,0 +1,108 @@
+
+scripted_gui = {  
+	TBE_country_info = {
+        window_name = "TBE_country_info_container"
+        context_type = player_context
+		visible = {
+			has_variable = TBE_country_info
+			is_ai = no
+		}
+
+		triggers = {
+			TBE_HOI_logo_visible = {
+				check_variable = {
+					TBE_country_info_text = 0
+				}
+			}
+			TBE_logo_visible = {
+				check_variable = {
+					TBE_country_info_text = 0
+				}
+			}
+			TBE_ci_tip_text_visible = {
+				check_variable = {
+					TBE_country_info_text = 0
+				}
+			}
+			TBE_ci_title_text_visible = {
+				not = {
+					check_variable = {
+						TBE_country_info_text = 0
+					}	
+				}
+			}
+			TBE_ci_text_inner_visible = {
+				not = {
+					check_variable = {
+						TBE_country_info_text = 0
+					}	
+				}
+
+			}
+
+		}
+		effects = {
+			TBE_ci_btn_click = {
+				clear_variable = ROOT.TBE_country_info
+			}
+			TBE_ci_information_topbar_click = {
+				clear_variable = TBE_country_info_text
+				clear_variable = TBE_information_frame
+				clear_variable = TBE_condition_frame
+				clear_variable = TBE_timeline_frame
+				set_variable = {
+					TBE_country_info_text = 1
+				}
+				set_variable = {
+					TBE_information_frame = 2
+				}	
+			}
+			TBE_ci_condition_topbar_click = {
+				clear_variable = TBE_country_info_text
+				clear_variable = TBE_information_frame
+				clear_variable = TBE_condition_frame
+				clear_variable = TBE_timeline_frame
+				set_variable = {
+					TBE_country_info_text = 2
+				}
+				set_variable = {
+					TBE_condition_frame = 2
+				}
+
+			}
+			TBE_ci_timeline_topbar_click = {
+				clear_variable = TBE_country_info_text
+				clear_variable = TBE_information_frame
+				clear_variable = TBE_condition_frame
+				clear_variable = TBE_timeline_frame
+				set_variable = {
+					TBE_country_info_text = 3
+				}
+				set_variable = {
+					TBE_timeline_frame = 2
+				}
+
+			}
+
+		}
+		properties = {
+			TBE_ci_information_topbar = {
+				frame = TBE_information_frame
+			}
+			TBE_ci_condition_topbar = {
+				frame = TBE_condition_frame
+			}
+			TBE_ci_timeline_topbar = {
+				frame = TBE_timeline_frame
+			}
+			TBE_ci_icon = {
+				image = "[GetTBECountryInfoIcon]"
+			}
+			TBE_ci_view = {
+				image = "[GetTBECountryInfoView]"
+			}
+
+		}
+		
+	}
+}

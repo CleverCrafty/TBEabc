@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+		ADR_andaoerdagong = { #安道尔大公的真实性
+
+			picture = ADR_DAGONG
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+			
+		}
+		ADR_zousizhongzheng = {   ###走私重镇
+
+			picture = ADR_zousizhongzheng
+		
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+			
+		}
+		
+		
+	}
+
+}

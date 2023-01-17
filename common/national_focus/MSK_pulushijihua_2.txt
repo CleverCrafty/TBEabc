@@ -1,0 +1,218 @@
+focus_tree = {
+	id = MSK_pulushijihua_2
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MSK
+		}
+	}
+	
+    initial_show_position = {
+		X =0
+	}
+	continuous_focus_position = { x = 10000000 y = 1000 }
+
+	default = no
+	focus = {
+		id = MSK_2_1
+		icon = GFX_goal_MSK_2_1
+		cost = 2.00
+		x = 5
+		y = 0
+
+	}
+	focus = {
+		id = MSK_2_2
+		icon = GFX_goal_MSK_2_2
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_1
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = MSK_2_3
+		icon = GFX_goal_MSK_2_3
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_2
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = MSK_2_4
+		icon = GFX_goal_MSK_2_4
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_3
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = MSK_2_5
+		icon = GFX_goal_MSK_2_5
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_4
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = MSK_2_6
+		icon = GFX_goal_MSK_2_6
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_5
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = MSK_2_7
+		icon = GFX_goal_MSK_2_7
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_1
+		}
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = MSK_2_8
+		icon = GFX_goal_MSK_2_8
+		cost = 0.00
+		prerequisite = {
+			focus = MSK_2_7
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = MSK_2_9
+		icon = GFX_goal_MSK_2_9
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_8
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = MSK_2_10
+		icon = GFX_goal_MSK_2_10
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_9
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = MSK_2_11
+		icon = GFX_goal_MSK_2_11
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_10
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = MSK_2_12
+		icon = GFX_goal_MSK_2_12
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_1
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = MSK_2_13
+		icon = GFX_goal_MSK_2_13
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_12
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = MSK_2_14
+		icon = GFX_goal_MSK_2_14
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_13
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = MSK_2_15
+		icon = GFX_goal_MSK_2_15
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_14
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = MSK_2_16
+		icon = GFX_goal_MSK_2_16
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_15
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = MSK_2_17
+		icon = GFX_goal_MSK_2_17
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_6
+		}
+		prerequisite = {
+			focus = MSK_2_11
+		}
+		prerequisite = {
+			focus = MSK_2_16
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = MSK_2_18
+		icon = GFX_goal_MSK_2_18
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_2_17
+		}
+		x = 5
+		y = 7
+
+	}
+}

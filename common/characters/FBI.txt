@@ -1,0 +1,16 @@
+characters = {
+	FBI_MAIKE_ase = {
+		name = "麦克.阿瑟"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/FBI/maike_aise.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_makease_DESC"
+			ideology = military_junta
+			traits= {  }
+			expire="1999.1.1.1"
+		}
+	}
+}	

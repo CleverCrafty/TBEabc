@@ -1,0 +1,218 @@
+focus_tree = {
+	id = ru_ben
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = JAP
+		}
+	}
+	default = no
+	focus = {
+		id = jap_xinian
+		icon = GFX_goal_jap_xinnian
+		cost = 2.00
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = jap_dongtiao
+		icon = GFX_goal_jap_dongtiao
+		cost = 1.50
+		prerequisite = {
+			focus = jap_xinian
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = jap_yiyuan
+		icon = GFX_goal_yihui
+		cost = 2.00
+		prerequisite = {
+			focus = jap_dongtiao
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = jap_tian_huang
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = jap_dongtiao
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = jap_junbu
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = jap_dongtiao
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = jap_yiqie_anhao
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = jap_yiyuan
+		}
+		prerequisite = {
+			focus = jap_tian_huang
+		}
+		prerequisite = {
+			focus = jap_junbu
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = jap_fangkuan
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = jap_yiqie_anhao
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = jap_jianshao_zhengbin
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = jap_yiqie_anhao
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = jap_canji_guijia
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = jap_jianshao_zhengbin
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = jap_tuiwubin
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = jap_canji_guijia
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = jap_haochaishi
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = jap_tuiwubin
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = jap_tishen_kouliang
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = jap_fangkuan
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = jap_youbao
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = jap_tishen_kouliang
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = jap_zhanlip
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = jap_youbao
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = jap_junbu_manyi
+		icon = GFX_goal_generic_soviet_construction
+		cost = 2.60
+		prerequisite = {
+			focus = jap_zhanlip
+		}
+		prerequisite = {
+			focus = jap_haochaishi
+		}
+		x = 7
+		y = 8
+
+	}
+	focus = {
+		id = jap_minzhong
+		icon = GFX_goal_unknown
+		cost = 2.00
+		prerequisite = {
+			focus = jap_junbu_manyi
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = jap_zanyihui_manyi
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = jap_junbu_manyi
+		}
+		x = 10
+		y = 9
+
+	}
+	focus = {
+		id = jap_bahongyiyu
+		icon = GFX_goal_unknown
+		cost = 4.00
+		prerequisite = {
+			focus = jap_minzhong
+		}
+		prerequisite = {
+			focus = jap_zanyihui_manyi
+		}
+		x = 7
+		y = 11
+
+	}
+}

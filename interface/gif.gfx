@@ -1,0 +1,46 @@
+spriteTypes = {	
+
+	#### 测试用
+
+	frameAnimatedSpriteType = {
+		name = "GFX_salachagif"
+		texturefile = "gfx/interface/azurlane/salachagif.dds"
+		noOfFrames = 7
+		animation_rate_fps = 7
+		looping = yes
+		play_on_show = yes
+		
+	}
+	#####国策图标 时不待我
+	frameAnimatedSpriteType = {
+		name = "GFX_shibudaiwogif"
+		texturefile = "gfx/interface/azurlane/shibudaiwogif.dds"
+		noOfFrames = 10
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_supernews_2"       
+		textureFile = "gfx/interface/TBE_bookmark_icon/supernews_2.dds"     
+		noOfFrames = 20
+		animation_rate_fps = 5
+		looping = yes 
+		play_on_show = yes 
+		pause_on_loop = 0.0
+	}
+
+
+	frameAnimatedSpriteType = { ###########国防军四人帮头像
+		name = "GFX_four_pep"
+		texturefile = "gfx/leaders/GER/GER_four_p.dds"
+		noOfFrames = 85
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		
+	}
+
+}	

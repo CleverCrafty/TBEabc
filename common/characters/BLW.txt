@@ -1,0 +1,18 @@
+characters = {
+	BLW_xiubote = {
+		name="休伯特·皮埃洛特"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/BLW/BLW_xiubote.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_xiubote_DESC"
+			ideology=authoritarian_subtype
+			traits = { }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}	

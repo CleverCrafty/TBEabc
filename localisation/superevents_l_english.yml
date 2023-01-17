@@ -1,0 +1,25 @@
+﻿l_english:
+##这堆东西不要改
+ Superevents_title:0 "[Superevents_title]"
+ Superevents_desc:0 "[Superevents_desc]"
+ Superevents_btn:0 "[Superevents_btn]"
+###这些你自己改
+ Superevents_title_1:0 "苏维埃联盟的崩溃"
+ Superevents_desc_1:0 "\n“历史早已证明，伟大的革命斗争会造就伟大人物，\n使过去不可能发挥的天才发挥出来。”\n———列宁"
+ Superevents_btn_1:0 "漆黑的夜"
+
+ Superevents_title_2:0 "第一次南京危机"
+ Superevents_desc_2:0 "\n“白眼观天下。”\n——宋教仁"
+ Superevents_btn_2:0 "南京又在流血。"
+
+ Superevents_title_3:0 "俄罗斯再统一"
+ Superevents_desc_3:0 "\n“只有热爱祖国，痛心祖国所受的严重苦难，憎恨敌人，这才给了我们参加斗争和取得胜利的力量。”\n——亚历山大.克伦斯基"
+ Superevents_btn_3:0 "二月重现"
+
+ superevent_news.1.t:0 "黄昏已至"
+ superevent_news.1.d:0 "来自大德意志国的消息，"
+ Superevents_title_4:0 "德国内战"
+ Superevents_desc_4:0 "\n“竞争乃万物之本。人类并不是依靠人性原则生存，而是依靠最野蛮的竞争生存！”\n——阿道夫.希特勒"
+ Superevents_btn_4:0 "千年帝国之梦就此破碎"
+ 
+

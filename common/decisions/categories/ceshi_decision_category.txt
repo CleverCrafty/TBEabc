@@ -1,0 +1,8 @@
+KOM_decision_category = {
+	icon = decision_black_market_money
+	picture = AZH_decision_holy_crap_peter_griffin_from_family_guy_in_tno_ok_this_is_epic
+	allowed = {
+		original_tag = KMT
+	}
+	priority = 10
+}

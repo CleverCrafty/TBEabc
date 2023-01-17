@@ -1,0 +1,190 @@
+focus_tree = {
+	id = Italian_East_Africa_focus_tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = AOI
+		}
+	}
+	default = no
+
+    #非洲之角#
+	focus = {
+		id = AOI_horn_of_africa
+		icon = GFX
+		x = 3
+		y = 0
+		cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+            country_event = { id = AOI.1 }
+		}
+	}
+
+	#来自意大利的移民
+	focus = {
+		id = AOI_italian_immigrants
+		icon = GFX
+		relative_position_id = AOI_horn_of_africa
+		prerequisite = { focus = AOI_horn_of_africa }
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+            add_manpower = 25000
+		}
+	}
+
+	#来自意大利的投资
+	focus = {
+		id = AOI_italian_investment
+		icon = GFX
+		relative_position_id = AOI_horn_of_africa
+		prerequisite = { focus = AOI_horn_of_africa }
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+            add_political_power = 25
+		}
+	}
+
+	#火车下的枕木
+	focus = {
+		id = AOI_sleepers_under_the_train
+		icon = GFX
+		relative_position_id = AOI_horn_of_africa
+		prerequisite = { focus = AOI_italian_immigrants }
+		prerequisite = { focus = AOI_italian_investment }
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+            country_event = { id = AOI.2 }
+		}
+	}
+
+	#开往厄立特里亚的火车
+	focus = {
+		id = AOI_train_bound_for_eritrea
+		icon = GFX
+		relative_position_id = AOI_horn_of_africa
+		prerequisite = { focus = AOI_sleepers_under_the_train }
+		x = -2
+		y = 3
+		cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+            build_railway = {
+				path = { 13250 13237 1984 13241 13242 5010 }
+			}
+		}
+	}
+
+	#开往索马里的火车
+	focus = {
+		id = AOI_train_bound_for_somalia
+		icon = GFX
+		relative_position_id = AOI_horn_of_africa
+		prerequisite = { focus = AOI_sleepers_under_the_train }
+		x = 2
+		y = 3
+		cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+            build_railway = {
+				path = { 5010 8036 10775 8062 11014 12941 }
+			}
+		}
+	}
+
+	#高原上的鸣笛声
+	focus = {
+		id = AOI_the_whistle_on_the_plateau
+		icon = GFX
+		relative_position_id = AOI_horn_of_africa
+		prerequisite = { focus = AOI_train_bound_for_eritrea }
+		prerequisite = { focus = AOI_train_bound_for_somalia }
+		x = 0
+		y = 4
+		cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+            country_event = { id = AOI.3 }
+		}
+	}
+
+	#红海岸边的铁轨
+	focus = {
+		id = AOI_rail_tracks_on_the_red_coast
+		icon = GFX
+		relative_position_id = AOI_horn_of_africa
+		prerequisite = { focus = AOI_the_whistle_on_the_plateau }
+		x = -2
+		y = 5
+		cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+            build_railway = {
+				path = { 5047 5091 12766 8043 4985 8124 }
+			}
+		}
+	}
+
+	#印度洋海岸的铁轨
+	focus = {
+		id = AOI_rail_tracks_on_the_indian_ocean_coast
+		icon = GFX
+		relative_position_id = AOI_horn_of_africa
+		prerequisite = { focus = AOI_the_whistle_on_the_plateau }
+		x = 2
+		y = 5
+		cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+            build_railway = {
+				path = { 8124 10777 10833 12759 10921 1966 10891 10818 12840 5065 12991 10928 8164 12941 }
+			}
+		}
+	}
+
+	#乘火车的旅客
+	focus = {
+		id = AOI_train_passengers
+		icon = GFX
+		relative_position_id = AOI_horn_of_africa
+		prerequisite = { focus = AOI_rail_tracks_on_the_red_coast }
+		prerequisite = { focus = AOI_rail_tracks_on_the_indian_ocean_coast }
+		x = 0
+		y = 6
+		cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+            country_event = { id = AOI.4 }
+		}
+	}
+}

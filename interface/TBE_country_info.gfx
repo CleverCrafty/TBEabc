@@ -1,0 +1,72 @@
+spriteTypes = {
+
+	spriteType = {
+        name = "GFX_TBE_ci_bg"
+        texturefile = "gfx/interface/TBE_country_info/TBE_ci_bg.png"
+    }
+	spriteType = {
+        name = "GFX_TBE_tab_botton"
+        texturefile = "gfx/interface/TBE_country_info/TBE_tab_botton.png"
+		noOfFrames = 2
+	}	
+	spriteType = {
+        name = "GFX_TBE_ci_botton"
+        texturefile = "gfx/interface/TBE_country_info/TBE_ci_botton.png"
+		noOfFrames = 2
+	}	
+
+
+	#icon
+	spriteType = {
+        name = "GFX_TBE_ci_icon_SOV"
+        texturefile = "gfx/interface/TBE_country_info/icon/TBE_ci_icon_SOV.png"
+    }
+	spriteType = {
+        name = "GFX_TBE_ci_icon_GER"
+        texturefile = "gfx/interface/TBE_country_info/icon/TBE_ci_icon_GER.png"
+    }
+	spriteType = {
+        name = "GFX_TBE_ci_icon_USA"
+        texturefile = "gfx/interface/TBE_country_info/icon/TBE_ci_icon_USA.png"
+    }
+	spriteType = {
+        name = "GFX_TBE_ci_icon_JAP"
+        texturefile = "gfx/interface/TBE_country_info/icon/TBE_ci_icon_JAP.png"
+    }
+	spriteType = {
+        name = "GFX_TBE_ci_icon_CHI"
+        texturefile = "gfx/interface/TBE_country_info/icon/TBE_ci_icon_CHI.png"
+    }
+    spriteType = {
+        name = "GFX_TBE_ci_icon_AOI"
+        texturefile = "gfx/interface/TBE_country_info/icon/TBE_ci_icon_AOI.png"
+    }
+
+	#view
+	spriteType = {
+        name = "GFX_TBE_ci_view_SOV"
+        texturefile = "gfx/interface/TBE_country_info/view/TBE_ci_view_SOV.png"
+    }
+	spriteType = {
+        name = "GFX_TBE_ci_view_GER"
+        texturefile = "gfx/interface/TBE_country_info/view/TBE_ci_view_GER.png"
+    }
+    spriteType = {
+        name = "GFX_TBE_ci_view_USA"
+        texturefile = "gfx/interface/TBE_country_info/view/TBE_ci_view_USA.png"
+    }
+	spriteType = {
+        name = "GFX_TBE_ci_view_JAP"
+        texturefile = "gfx/interface/TBE_country_info/view/TBE_ci_view_JAP.png"
+    }
+	spriteType = {
+        name = "GFX_TBE_ci_view_CHI"
+        texturefile = "gfx/interface/TBE_country_info/view/TBE_ci_view_CHI.png"
+    }
+    spriteType = {
+        name = "GFX_TBE_ci_view_AOI"
+        texturefile = "gfx/interface/TBE_country_info/view/TBE_ci_view_AOI.png"
+    }
+
+
+}

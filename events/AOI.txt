@@ -1,0 +1,56 @@
+add_namespace = AOI
+country_event = {
+	id = AOI.1
+    title = AOI.1.t
+    desc = AOI.1.d
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = { 
+        name = AOI.1.a
+	}
+}
+
+country_event = {
+	id = AOI.2
+    title = AOI.2.t
+    desc = AOI.2.d
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = { 
+        name = AOI.2.a
+	}
+}
+
+country_event = {
+	id = AOI.3
+    title = AOI.3.t
+    desc = AOI.3.d
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = { 
+        name = AOI.3.a
+	}
+}
+
+country_event = {
+	id = AOI.4
+    title = AOI.4.t
+    desc = AOI.4.d
+
+    is_triggered_only = yes
+
+    fire_only_once = yes
+
+    option = { 
+        name = AOI.4.a
+	}
+}

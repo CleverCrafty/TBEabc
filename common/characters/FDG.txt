@@ -1,0 +1,18 @@
+characters = {
+	FDG_jiaozong = {
+		name="庇护十二世"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/FDG/FDG_bihu_12.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_Pius_12_DESC"
+			ideology=Holy_See_of_Theocracy_sub
+			traits = { }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}	

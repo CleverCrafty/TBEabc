@@ -1,0 +1,16 @@
+characters = {
+	WRS_sangdesi = {
+		name = "桑德斯.刘易斯"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/WRS/sang_de_si_liu_yi_si.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_SANGDESI_DESC"
+			ideology = oligarchism
+			traits= {  }
+			expire="1999.1.1.1"
+		}
+	}
+}	

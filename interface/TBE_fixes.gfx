@@ -1,0 +1,23 @@
+spriteTypes = {
+	###苏联修正
+	spriteType = {  #工农红军
+		name = "GFX_idea_worker_farmer_red_army"
+		texturefile = "gfx/fixes/SOV/worker_farmer_red_army.dds"
+	}
+	spriteType = {  #苏联工业
+		name = "GFX_idea_sulian_gongye" 
+		texturefile = "gfx/fixes/SOV/sulian_gongye.dds"
+	}
+	spriteType = {  #苏联农业
+		name = "GFX_idea_su_lian_nong_ye" 
+		texturefile = "gfx/fixes/SOV/su_lian_nong_ye.dds"
+	}
+	spriteType = {  #全联盟共产党（布尔什维克）
+		name = "GFX_idea_quan_lianmeng_dang" 
+		texturefile = "gfx/fixes/SOV/quan_lianmeng_dang.dds"
+	}
+	spriteType = {  #动荡天空
+		name = "GFX_idea_dong_dang_air" 
+		texturefile = "gfx/fixes/SOV/dong_dang_air.dds"
+	}
+}

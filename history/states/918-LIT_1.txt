@@ -1,0 +1,17 @@
+state={
+	id=918
+	name="STATE_918"
+	state_category = rural
+	history = {
+		owner = LIT
+		
+		add_core_of = LIT
+	
+	}
+	provinces={
+		3072 9164 9197 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

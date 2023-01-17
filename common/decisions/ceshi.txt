@@ -1,0 +1,32 @@
+KOM_decision_category = {
+	Money_jinjinjin_jinjinjin = {
+		
+		icon = decision_black_market_money
+		
+		cost = 10
+		days_remove = 10
+		
+		fire_only_once = 是否只可点/触发一次
+		days_re_enable = 114
+
+		visible = {
+			always = yes
+		}
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 10
+				
+			}
+		}
+		modifier = {
+			
+	   	}
+		complete_effect = {  
+		
+		}
+		remove_effect = {
+			
+		}
+	}
+}	

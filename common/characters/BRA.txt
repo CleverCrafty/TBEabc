@@ -1,0 +1,16 @@
+characters={
+	BRA_getulio_vargas={
+		name = "热图利奥·瓦加斯"
+		portraits={
+			civilian={
+				large=GFX_portrait_BRA_getulio_vargas # Can become Fascism leader later (via Portugal FT)
+			}
+		}
+		country_leader={
+			ideology=authoritarian_democracy_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}	

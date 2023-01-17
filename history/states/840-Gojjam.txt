@@ -1,0 +1,26 @@
+state = {
+	id = 840
+	name = "STATE_840"
+	manpower = 900000
+	
+	state_category = pastoral
+
+	history = {
+		owner = AOI
+		add_core_of = AOI
+		
+		buildings = {
+			infrastructure = 1
+		}
+		
+		victory_points = { 
+			13242 2 
+		}
+	}
+
+	provinces = {
+ 		4954 13242
+ 	}
+
+	local_supplies = 0.0 
+}

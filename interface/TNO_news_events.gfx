@@ -1,0 +1,36 @@
+
+spriteTypes = {
+
+	###############
+	### 美国内战 ###
+	###############
+
+	spriteType = {
+		name = "GFX_junzhengfu_duli" #麦克阿瑟军政府独立
+		texturefile = "gfx/event_pictures/USA_nei_zhan_maike_aise.dds"
+	}
+	spriteType = {
+		name = "GFX_beifangzhengfu_duli" #北方政府独立
+		texturefile = "gfx/event_pictures/USA_nei_zhan_dulumen.dds"
+	}
+	spriteType = {
+		name = "GFX_nanfang_duli" #南方政府独立
+		texturefile = "gfx/event_pictures/USA_nei_zhan_dikexi.dds"
+	}
+	spriteType = {
+		name = "GFX_xibu_duli" #西部独立
+		texturefile = "gfx/event_pictures/USA_nei_zhan_xibu.dds"
+	}
+	spriteType = {
+		name = "GFX_yingguo_duli" #新英格兰独立
+		texturefile = "gfx/event_pictures/USA_nei_zhan_yinggelan.dds"
+	}
+	
+	#################
+	### 美国新闻   ###
+	################
+	spriteType = {
+		name = "GFX_USA_yuanzidan" #原子弹
+		texturefile = "gfx/event_pictures/news/USA_yuanzidan.dds"
+	}
+}

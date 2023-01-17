@@ -1,0 +1,25 @@
+music = {
+	name = "TBE_ci_SOV"
+	file = "TBE_country_view/Braver_comrades.ogg"
+	volume = 0.65
+}
+music = {
+	name = "TBE_ci_GER"
+	file = "TBE_country_view/Im_Wald_im_grunen_Wald.ogg"
+	volume = 0.65
+}
+music = {
+	name = "TBE_ci_USA"
+	file = "TBE_country_view/The_Star_Spangled_Banner.ogg"
+	volume = 0.65
+}
+music = {
+	name = "TBE_ci_JAP"
+	file = "TBE_country_view/fuyu_no_hana.ogg"
+	volume = 0.65
+}
+music = {
+	name = "TBE_ci_CHI"
+	file = "TBE_country_view/The_Jasmine.ogg"
+	volume = 0.65
+}

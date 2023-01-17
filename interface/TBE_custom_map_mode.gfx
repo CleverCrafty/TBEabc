@@ -1,0 +1,103 @@
+spritetypes = {
+
+	
+	spritetype = {
+		name = "GFX_mapmode_buttons_selected_small_tbe_map_mode"
+		texturefile = "gfx/interface/GFX_mapmode_buttons_selected_small_TBE_test_map_map_mode.dds"
+	}
+	spritetype = {
+		name = "GFX_mapmode_buttons_deselected_small_tbe_map_mode"
+		texturefile = "gfx/interface/GFX_mapmode_buttons_deselected_small_TBE_test_map_map_mode.dds"
+	}
+	
+
+
+
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_GER"
+		textureFile = "gfx/interface/custom_map_modes/icon/EHP_GER_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_ZV_GER"
+		textureFile = "gfx/interface/custom_map_modes/icon/ZV_GER_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_JAP"
+		textureFile = "gfx/interface/custom_map_modes/icon/CPS_JAP_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_ITA_TRI"
+		textureFile = "gfx/interface/custom_map_modes/icon/TRI_ITA_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_ITA"
+		textureFile = "gfx/interface/custom_map_modes/icon/ITA_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_USA"
+		textureFile = "gfx/interface/custom_map_modes/icon/OFN_USA_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_ARG"
+		textureFile = "gfx/interface/custom_map_modes/icon/ARG_sphere_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_econ_sphere_icon_IBR"
+		textureFile = "gfx/interface/custom_map_modes/icon/IBR_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_BRA"
+		textureFile = "gfx/interface/custom_map_modes/icon/BRA_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_MEX"
+		textureFile = "gfx/interface/custom_map_modes/icon/MEX_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_WOL"
+		textureFile = "gfx/interface/custom_map_modes/icon/WOL_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_FFR"
+		textureFile = "gfx/interface/custom_map_modes/icon/FFR_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_CAO"
+		textureFile = "gfx/interface/custom_map_modes/icon/CAO_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_ENG"
+		textureFile = "gfx/interface/custom_map_modes/icon/ENG_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_ADN"
+		textureFile = "gfx/interface/custom_map_modes/icon/ADN_sphere_icon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_econ_sphere_icon_CME"
+		textureFile = "gfx/interface/custom_map_modes/icon/CME_sphere_icon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_econ_sphere_icon_none"
+		textureFile = "gfx/interface/custom_map_modes/icon/NONE_sphere_icon.dds"
+	}
+
+
+	
+}

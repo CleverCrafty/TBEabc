@@ -1,0 +1,26 @@
+leader_traits = {
+	
+	DA_YUAN_SHUAI = {
+		random = no
+		stability_weekly = 0.01
+        command_power_gain = 0.09
+        army_org_factor = 0.1
+	}
+    ITA_tepai = {
+		random = no
+		stability_weekly = 0.01
+	}
+	zhuanyuan = {
+		random = no
+		stability_weekly = 0.03
+		drift_defence_factor = 0.1
+		command_power_gain = 0.01
+	}
+    SOV_1_minjin = { random = no }
+	SOV_2_minjin = { random = no }
+	SOV_3_minjin = { random = no }
+	SOV_4_minjin = { random = no }
+	SOV_5_minjin = { random = no }
+
+	
+}   

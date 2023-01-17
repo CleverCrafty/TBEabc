@@ -1,0 +1,16 @@
+characters = {
+	GER_LONG_MEIER = {
+		name = "埃尔温.隆美尔"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BFJ/portrait_BFJ_beifajunqu_long_mei_er.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_LONG_meire_DESC"
+			ideology = nazism
+			trait s= { dictator }
+			expire="1965.1.1.1"
+		}
+	}
+}	

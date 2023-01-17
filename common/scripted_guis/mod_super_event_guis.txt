@@ -1,0 +1,40 @@
+scripted_gui = {
+	super_event_close = {
+		window_name = "super_event_button_window"
+		context_type = player_context
+		visible = {
+			OR = { #把你所有要触发超事件的对应flag写在这里
+				has_country_flag = 1
+				has_country_flag = 2
+				has_country_flag = 3
+			}
+		}
+	}
+	super_event_pic_1 ={
+	   window_name = "super_event_pic_1_window"
+	   context_type = player_context
+	    visible = {
+			OR = { #把你所有要触发超事件的对应flag写在这里
+				has_country_flag = 1
+				has_country_flag = 2
+				has_country_flag = 3
+			}
+		}
+	}
+	effects = {
+		super_event_button_window_click = {
+			if = {
+				limit ={
+					has_country_flag = 1
+				}
+				clr_country_flag = 1
+			}
+			# if = { #依此类推
+			# 	limit ={
+			# 		has_country_flag = 2
+			# 	}
+			# 	clr_country_flag = 2
+			# }
+		}
+	}
+}

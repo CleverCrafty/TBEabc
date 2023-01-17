@@ -1,0 +1,99 @@
+focus_tree = {
+	id = FocusTree_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POR
+		}
+	}
+	default = no
+	focus = {
+		id = POR_1_1_xingnian
+		icon = GFX_goal_POR_xingnian
+		cost = 3.00
+		x = 6
+		y = 0
+
+	}
+	focus = {
+		id = por_1_2_YANHUA
+		icon = GFX_goal_POR_yanhua
+		cost = 3.00
+		prerequisite = {
+			focus = POR_1_1_xingnian
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = POR_1_3_xinshufabu
+		icon = GFX_goal_POR_xinshufabu
+		cost = 2.00
+		prerequisite = {
+			focus = por_1_2_YANHUA
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = POR_1_4_zhengshi
+		icon = GFX_goal_POR_zhengshi
+		cost = 2.00
+		prerequisite = {
+			focus = POR_1_3_xinshufabu
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = POR_1_5_xiawucha
+		icon = GFX_goal_POR_xiawucha
+		cost = 3.00
+		prerequisite = {
+			focus = POR_1_1_xingnian
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = POR_1_6_sanrenzu
+		icon = GFX_goal_POR_sanrenzu
+		cost = 2.00
+		prerequisite = {
+			focus = POR_1_5_xiawucha
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = POR_1_7_zhunweilakai
+		icon = GFX_goal_POR_zhunweilakai
+		cost = 2.00
+		prerequisite = {
+			focus = POR_1_6_sanrenzu
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = POR_1_8_guomingdahui
+		icon = GFX_goal_POR_guomingdahui
+		cost = 3.00
+		prerequisite = {
+			focus = POR_1_4_zhengshi
+		}
+		prerequisite = {
+			focus = POR_1_7_zhunweilakai
+		}
+		x = 6
+		y = 4
+
+	}
+}

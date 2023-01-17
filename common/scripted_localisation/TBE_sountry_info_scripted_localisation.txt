@@ -1,0 +1,363 @@
+﻿defined_text = {
+	name = GetTBECountryInfoText
+	text = {
+		trigger = {
+			check_variable = {
+				TBE_country_info_text = 1
+			}
+		}
+		localization_key = "[GetTBECountryInformation]"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				TBE_country_info_text = 2
+			}
+		}
+		localization_key = "[GetTBECountryCondition]"
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				TBE_country_info_text = 3
+			}
+		}
+		localization_key = "[GetTBECountryTimeline]"
+	}
+}
+
+
+
+
+defined_text = {
+	name = GetTBECountryInfoIcon
+	text = {
+		trigger = {
+			ROOT = {
+				tag = SOV
+			}
+		}
+		localization_key = "GFX_TBE_ci_icon_SOV"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = GER
+			}
+		}
+		localization_key = "GFX_TBE_ci_icon_GER"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = USA
+			}
+		}
+		localization_key = "GFX_TBE_ci_icon_USA"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = JAP
+			}
+		}
+		localization_key = "GFX_TBE_ci_icon_JAP"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = CHI
+			}
+		}
+		localization_key = "GFX_TBE_ci_icon_CHI"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = AOI
+			}
+		}
+		localization_key = "GFX_TBE_ci_icon_AOI"
+	}
+
+}
+
+
+defined_text = {
+	name = GetTBECountryInfoView
+	text = {
+		trigger = {
+			ROOT = {
+				tag = SOV
+			}
+		}
+		localization_key = "GFX_TBE_ci_view_SOV"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = GER
+			}
+		}
+		localization_key = "GFX_TBE_ci_view_GER"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = USA
+			}
+		}
+		localization_key = "GFX_TBE_ci_view_USA"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = JAP
+			}
+		}
+		localization_key = "GFX_TBE_ci_view_JAP"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = CHI
+			}
+		}
+		localization_key = "GFX_TBE_ci_view_CHI"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = AOI
+			}
+		}
+		localization_key = "GFX_TBE_ci_view_AOI"
+	}
+
+}
+
+
+
+defined_text = {
+	name = GetTBECountryInformation
+	text = {
+		trigger = {
+			ROOT = {
+				tag = SOV
+			}
+		}
+		localization_key = "TBE_information_SOV"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = GER
+			}
+		}
+		localization_key = "TBE_information_GER"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = USA
+			}
+		}
+		localization_key = "TBE_information_USA"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = JAP
+			}
+		}
+		localization_key = "TBE_information_JAP"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = CHI
+			}
+		}
+		localization_key = "TBE_information_CHI"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = AOI
+			}
+		}
+		localization_key = "TBE_information_AOI"
+	}
+	text = {
+		localization_key = "Coming Soon"
+	}
+
+
+}
+defined_text = {
+	name = GetTBECountryCondition
+	text = {
+		trigger = {
+			ROOT = {
+				tag = SOV
+			}
+		}
+		localization_key = "TBE_condition_SOV"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = GER
+			}
+		}
+		localization_key = "TBE_condition_GER"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = USA
+			}
+		}
+		localization_key = "TBE_condition_USA"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = JAP
+			}
+		}
+		localization_key = "TBE_condition_JAP"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = CHI
+			}
+		}
+		localization_key = "TBE_condition_CHI"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = AOI
+			}
+		}
+		localization_key = "TBE_condition_AOI"
+	}
+	text = {
+		localization_key = "Coming Soon"
+	}
+
+
+}
+defined_text = {
+	name = GetTBECountryTimeline
+	text = {
+		trigger = {
+			ROOT = {
+				tag = SOV
+			}
+		}
+		localization_key = "TBE_timeline_SOV"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = GER
+			}
+		}
+		localization_key = "TBE_timeline_GER"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = USA
+			}
+		}
+		localization_key = "TBE_timeline_USA"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = JAP
+			}
+		}
+		localization_key = "TBE_timeline_JAP"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = CHI
+			}
+		}
+		localization_key = "TBE_timeline_CHI"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = AOI
+			}
+		}
+		localization_key = "TBE_timeline_AOI"
+	}
+	text = {
+		localization_key = "Coming Soon"
+	}
+
+}
+
+defined_text = {
+	name = GetTBECountryExit
+	text = {
+		trigger = {
+			ROOT = {
+				tag = SOV
+			}
+		}
+		localization_key = "TBE_exit_SOV"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = GER
+			}
+		}
+		localization_key = "TBE_exit_GER"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = USA
+			}
+		}
+		localization_key = "TBE_exit_USA"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = JAP
+			}
+		}
+		localization_key = "TBE_exit_JAP"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = CHI
+			}
+		}
+		localization_key = "TBE_exit_CHI"
+	}
+	text = {
+		trigger = {
+			ROOT = {
+				tag = AOI
+			}
+		}
+		localization_key = "TBE_exit_AOI"
+	}
+	text = {
+		localization_key = "Coming Soon"
+	}
+
+}

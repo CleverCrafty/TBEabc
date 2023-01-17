@@ -1,0 +1,54 @@
+ideas = {
+	country = {
+		dui_wu_ke_lan_ren_de_canbao_tongzhi = {
+
+			picture = wukelan_minjin_1
+		
+			cancel = { 
+				has_war = yes
+		}
+
+			removal_cost = -1
+			
+			modifier = {
+				conscription = -0.8
+				monthly_population = -0.2
+				stability_weekly = 0.2
+			}
+			
+		}
+		de_guo_liang_cang = {
+
+			picture = wu_ke_lan_minjin_2
+		
+			cancel = { 
+				has_war = GER
+		}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.2
+				stability_weekly = 0.2
+				political_power_factor = -0.3
+			}
+			
+		}
+		shuangchong_wukelan = { 
+
+			picture = wu_ke_lan_minjin_3
+		
+
+			removal_cost = -1
+			
+			modifier = {
+			
+				custom_modifier_tooltip = WKL_sc_tt
+			}
+			
+			
+		}
+		
+	}
+
+}

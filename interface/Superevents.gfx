@@ -1,0 +1,52 @@
+spriteTypes = {
+	###不要改这些
+	spriteType = {
+		name = "GFX_Superevents_bg"
+		texturefile = "gfx/Superevents/Superevents_bg.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Superevents_exit_btn"
+		texturefile = "gfx/Superevents/Superevents_btn.dds"
+		legacy_lazy_load = no 
+	}
+	spriteType = {
+		name = "GFX_Superevents_frame_overlay"
+		texturefile = "gfx/Superevents/Superevents_frame.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Superevents_pic_entry"
+		texturefile = "gfx/Superevents/Superevents_pic.dds"
+		legacy_lazy_load = no
+	}
+	
+ ###这些自己加
+
+    spriteType = {
+		name = "GFX_Superevents_1"
+		texturefile = "gfx/superevents/pic/Superevent_pic_1.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Superevents_2"
+		texturefile = "gfx/superevents/pic/Superevent_pic_2.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Superevents_3"
+		texturefile = "gfx/superevents/pic/Superevent_pic_3.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Superevents_4"
+		texturefile = "gfx/superevents/pic/Superevent_pic_4.png"
+		legacy_lazy_load = no
+	}
+
+
+
+}

@@ -1,0 +1,438 @@
+ideologies = {
+	
+	fascism = { #法西斯主义
+	 
+		types = {
+			fascism_subtype = { }
+			fascism_ideology = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		
+		color = { 133 90 25 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		ai_fascist = yes
+		can_be_boosted = no
+	}
+	
+	despotism = { #专制主义
+		types = {
+			despotism_subtype = { }
+			colonialism_sub = { } #殖民政府
+			WANG_jinwei_ism = { } #汪精卫罕见思想
+			caretaker_cabinet_sub = { } #过渡政府（专制类
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		
+		color = { 78 78 57 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	national_socialism = { #国家社会主义
+		types = {
+			national_socialism_subtype = { }
+			Reichskommissariat_sub = { } #专员辖区
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		
+		color = { 99 67 20 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		ai_fascist = yes
+		can_be_boosted = no
+	}
+	
+	extreme_militarism = { #极端军国主义
+		types = {
+			extreme_militarism_subtype = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		
+		color = { 38 24 2 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		ai_fascist = yes
+		can_be_boosted = no
+	}
+	
+	authoritarian = { #威权主义
+		types = {
+			authoritarian_subtype = { }
+			Interim_Government_sub = { }#临时政府
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		
+		color = { 135 135 100 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	conservative = { #保守主义
+		types = {
+			conservative_democracy_subtype = { }
+			Holy_See_of_Theocracy_sub = { } #神权圣座
+
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		
+		color = { 57 70 113 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	liberal = { #自由主义
+		types = {
+			liberal_subtype = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		
+		color = { 53 140 186 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	
+	social_democracy = { #社会民主主义
+		types = {
+			social_democracy_subtype = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		
+		color = { 175 69 120 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		ai_neutral = yes
+		can_be_boosted = no
+	}
+	communism = { #共产主义
+		types = {
+			communism_subtype = { }
+			malie_subtype = { } #马列主义
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		
+		color = { 185 2 2 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		ai_communist = yes
+		can_be_boosted = no
+	}
+
+	social = { #社会主义
+		types = {
+			social_subtype = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_1"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_2"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_3"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_4"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_5"
+			"FACTION_NAME_AUTHORITARIAN_DEMOCRAT_6"
+		}
+		
+		color = { 250 86 83 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_force_government = no
+			can_join_factions = no
+			can_create_factions = no
+			can_send_volunteers = yes
+			can_puppet = no
+		}
+		
+		can_host_government_in_exile = no
+		can_collaborate = yes
+		
+		war_impact_on_world_tension = 0
+		faction_impact_on_world_tension = 0
+		
+		modifiers = {
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		
+		ai_communist = yes
+		can_be_boosted = no
+	}
+
+	
+
+	
+
+	
+
+}

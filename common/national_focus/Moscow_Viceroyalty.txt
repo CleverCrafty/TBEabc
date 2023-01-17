@@ -1,0 +1,80 @@
+focus_tree = {
+	id = FocusTree_0
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = TBE
+		}
+	}
+	default = no
+	focus = {
+		id = MSK_1_1
+		icon = GFX_goal_MSK_1
+		cost = 2.00
+		x = 15
+		y = 0
+
+	}
+	focus = {
+		id = MSK_1_2
+		icon = GFX_goal_MSK_2
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_1_1
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = MSK_1_6
+		icon = GFX_goal_MSK_3
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_1_1
+		}
+		x = 15
+		y = 1
+
+	}
+	focus = {
+		id = MSK_1_5
+		icon = GFX_goal_MSK_4
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_1_1
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = MSK_1_3
+		icon = GFX_goal_MSK_5
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_1_2
+		}
+		prerequisite = {
+			focus = MSK_1_6
+		}
+		prerequisite = {
+			focus = MSK_1_5
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = MSK_1_4
+		icon = GFX_goal_MSK_6
+		cost = 2.00
+		prerequisite = {
+			focus = MSK_1_3
+		}
+		x = 15
+		y = 3
+
+	}
+}

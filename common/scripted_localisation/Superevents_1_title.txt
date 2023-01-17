@@ -1,0 +1,40 @@
+defined_text = { 
+	name = Superevents_title
+			
+	text = { trigger = { check_variable = { global.se_display = 1 } } localization_key = Superevents_title_1 }
+	text = { trigger = { check_variable = { global.se_display = 2 } } localization_key = Superevents_title_2 }
+	text = { trigger = { check_variable = { global.se_display = 3 } } localization_key = Superevents_title_3 }
+	text = { trigger = { check_variable = { global.se_display = 4 } } localization_key = Superevents_title_4 }
+	text = { trigger = { check_variable = { global.se_display = 5 } } localization_key = Superevents_title_5 }
+	text = { trigger = { check_variable = { global.se_display = 6 } } localization_key = Superevents_title_6 }
+	text = { trigger = { check_variable = { global.se_display = 7 } } localization_key = Superevents_title_7 }
+	text = { trigger = { check_variable = { global.se_display = 8 } } localization_key = Superevents_title_8 }
+	text = { trigger = { check_variable = { global.se_display = 9 } } localization_key = Superevents_title_9 }
+	text = { trigger = { check_variable = { global.se_display = 10 } } localization_key = Superevents_title_10 }
+	text = { trigger = { check_variable = { global.se_display = 11 } } localization_key = Superevents_title_11 }
+	text = { trigger = { check_variable = { global.se_display = 12 } } localization_key = Superevents_title_12 }
+	text = { trigger = { check_variable = { global.se_display = 13 } } localization_key = Superevents_title_13 }
+	text = { trigger = { check_variable = { global.se_display = 14 } } localization_key = Superevents_title_14 }
+	text = { trigger = { check_variable = { global.se_display = 15 } } localization_key = Superevents_title_15 }
+	text = { trigger = { check_variable = { global.se_display = 16 } } localization_key = Superevents_title_16 }
+	text = { trigger = { check_variable = { global.se_display = 17 } } localization_key = Superevents_title_17 }
+	text = { trigger = { check_variable = { global.se_display = 18 } } localization_key = Superevents_title_18 }
+	text = { trigger = { check_variable = { global.se_display = 19 } } localization_key = Superevents_title_19 }
+	text = { trigger = { check_variable = { global.se_display = 20 } } localization_key = Superevents_title_20 }
+	text = { trigger = { check_variable = { global.se_display = 21 } } localization_key = Superevents_title_21 }
+	text = { trigger = { check_variable = { global.se_display = 22 } } localization_key = Superevents_title_22 }
+	text = { trigger = { check_variable = { global.se_display = 23 } } localization_key = Superevents_title_23 }
+	text = { trigger = { check_variable = { global.se_display = 24 } } localization_key = Superevents_title_24 }
+	text = { trigger = { check_variable = { global.se_display = 25 } } localization_key = Superevents_title_25 }
+	text = { trigger = { check_variable = { global.se_display = 26 } } localization_key = Superevents_title_26 }
+	text = { trigger = { check_variable = { global.se_display = 27 } } localization_key = Superevents_title_27 }
+	text = { trigger = { check_variable = { global.se_display = 28 } } localization_key = Superevents_title_28 }
+	text = { trigger = { check_variable = { global.se_display = 29 } } localization_key = Superevents_title_29 }
+	text = { trigger = { check_variable = { global.se_display = 30 } } localization_key = Superevents_title_30 }
+
+	text = {
+		trigger = { 
+		}
+		localization_key = Superevents_title_missing
+	}	
+}

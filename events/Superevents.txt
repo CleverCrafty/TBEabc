@@ -1,0 +1,84 @@
+add_namespace = news_test
+add_namespace = RUS_return
+add_namespace = superevent_news
+news_event = {
+	#第一个超事件，我忘了叫啥
+	id = news_test.1
+	title = news_test.1.t
+	desc = news_test.1.d
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		ai_chance = {
+			base = 100
+		}
+		hidden_effect = {
+			set_variable = { global.se_display = 1 }
+			play_song = whhz
+		}
+	}
+}
+news_event = {
+	#第二个超事件，南京危机
+	id = news_test.2
+	title = news_test.2.t
+	desc = news_test.2.d
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		ai_chance = {
+			base = 100
+		}
+		hidden_effect = {
+			set_variable = { global.se_display = 2 }
+			play_song = abcd
+		}
+
+	}
+}
+news_event = {
+	#俄罗斯再统一——克伦斯基线共和国
+	id = news_test.3
+	title = news_test.3.t
+	desc = news_test.3.d
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		ai_chance = {
+			base = 100
+		}
+		hidden_effect = {
+			set_variable = { global.se_display = 3 }
+			play_song = whhz
+		}
+
+	}	
+}
+news_event = {
+	#德国内战
+	id = superevent_news.1
+	title = superevent_news.1.t
+	desc = superevent_news.1.d
+	is_triggered_only = yes
+	major = yes
+	fire_only_once = yes
+	hidden = yes
+	option = {
+		ai_chance = {
+			base = 100
+		}
+		hidden_effect = {
+			set_variable = { global.se_display = 4 }
+			play_song = whhz
+		}
+
+	}	
+}
+
+	

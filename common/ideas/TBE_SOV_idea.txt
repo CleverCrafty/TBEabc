@@ -1,0 +1,87 @@
+ideas = {
+	country = {
+		idea_SOV_sovie_agriculture_1 = { 
+			#苏联农业状况
+			picture = lian_nong_ye
+			allowed = {
+				always = no
+			}
+			modifier = {
+				monthly_population = -0.2
+				global_building_slots_factor = -0.1
+				conscription_factor = -0.1
+				consumer_goods_factor = 0.1
+				stability_factor = -0.3
+				custom_modifier_tooltip = SOV_1_minjin
+			}
+		} 
+		idea_SOV_sovie_industry_1 = { 
+			#苏联工业状况_1
+			 picture = sulian_gongye
+			 allowed = {
+				 always = no
+			 }
+			 modifier = {
+				 production_factory_efficiency_gain_factor = 0.1
+				 production_factory_max_efficiency_factor = -0.1
+				 industrial_capacity_factory = -0.1
+				 production_speed_buildings_factor = -0.3
+				 consumer_goods_factor = 0.1
+				 stability_factor = -0.1
+				 custom_modifier_tooltip = SOV_2_minjin
+			 }
+		}
+ 
+		 idea_SOV_red_army_1 = { 
+			#工农红军_1
+			 picture = worker_farmer_red_army
+			 allowed = {
+				 always = no
+			 }
+			 modifier = {
+				 army_defence_factor = -0.1
+				 army_core_attack_factor = 0.1
+				 army_org_factor = -0.1
+				 army_org_regain = 0.1
+				 land_doctrine_cost_factor = 0.5
+				 experience_gain_army_factor = -0.2
+				 custom_modifier_tooltip = SOV_4_minjin
+			 }
+			 targeted_modifier = {
+				 tag = GER
+				 attack_bonus_against = 0.2
+			 }
+		 }
+ 
+		 idea_SOV_bolshevik_1 = { 
+			#全联盟共产党（布尔什维克）
+			 picture = quan_lianmeng_dang
+			 allowed = {
+				 always = no
+			 }
+			 modifier = {
+				 stability_factor = -0.1
+				 political_power_factor = -0.25
+				 research_speed_factor = -0.05
+				 custom_modifier_tooltip = SOV_4_minjin
+			 }
+		 }
+ 
+		 idea_SOV_sky_in_unrest_1 = { 
+			#动荡的天空
+			 picture = dong_dang_air
+			 allowed = {
+				 always = no
+			 }
+			 modifier = {
+				 production_speed_buildings_factor = -0.2
+				 industry_free_repair_factor = -0.9
+				 consumer_goods_factor = 0.15
+				 war_support_factor = -0.25
+				 stability_factor = -0.1
+				 custom_modifier_tooltip = SOV_5_minjin
+			 }
+		 }
+ 
+	}
+}

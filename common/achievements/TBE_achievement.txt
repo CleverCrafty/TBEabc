@@ -1,0 +1,13 @@
+unique_id = TBE_achievement
+
+TBE_to_be_a_Lucky_programer = {
+	possible = {
+		has_start_date < 1946.01.02	
+	}
+	happened = {
+		custom_trigger_tooltip = { tooltip = TBE_to_be_a_Lucky_programer_tt }
+		hidden_trigger = {
+			TBE_to_be_a_Lucky_programer_trigger = yes
+		}
+	}
+}

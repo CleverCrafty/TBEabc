@@ -1,0 +1,49 @@
+﻿capital = 16
+
+oob = "LIT_1936"
+
+set_research_slots = 3
+
+
+
+set_variable = {
+	var = iron_wolf_days_var
+	value = 100
+}
+
+recruit_character = VSF_beidang
+
+
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+	gw_artillery = 1
+	tech_support = 1
+}
+
+set_convoys = 10
+
+
+
+set_politics = {
+	ruling_party = despotism #填执政党 就是下面那几个意识形态
+	last_election = "1926.5.8" #不用管
+	election_frequency = 1000 #不用管
+	elections_allowed = no #不用管
+}
+set_popularities = {
+	extreme_militarism = 0 #极端军国主义
+	national_socialism = 5 #民族社会主义 法兰西社会党—亲德派
+	fascism = 15 #法西斯 法兰西社会党
+	despotism = 60 #专制主义 法兰西国政府
+	authoritarian = 10 #威权主义 法兰西社会党—温和派
+	conservative = 2 #保守主义 戴高乐派抵抗运动
+	liberal = 2 #自由主义 激进党
+	social_democracy = 3 #社会民主主义 工人国际法国支部
+	social = 0 #社会主义 法国共产党—多列士派
+	communism = 3 #共产主义 法国共产党—杜克洛派
+}
+

@@ -1,0 +1,15 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			SOV = {
+				remove_ideas = {
+					idea_SOV_sovie_agriculture_1
+					idea_SOV_sovie_industry_1
+					idea_SOV_red_army_1
+					idea_SOV_bolshevik_1
+					idea_SOV_sky_in_unrest_1
+				}
+			}
+		}
+	}
+}

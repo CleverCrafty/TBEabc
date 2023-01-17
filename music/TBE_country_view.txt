@@ -1,0 +1,37 @@
+
+music_station = "TBE_country_view"
+
+music = {
+	song = "TBE_ci_SOV"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "TBE_ci_GER"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "TBE_ci_USA"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "TBE_ci_JAP"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "TBE_ci_CHI"
+	chance = {
+		factor = 0
+	}
+}
+
+
+
+

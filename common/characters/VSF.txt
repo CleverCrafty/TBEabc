@@ -1,0 +1,16 @@
+characters = {
+	VSF_beidang = {
+		name = "亨利.菲利浦.贝当"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/VSF/beidang.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_beidang_DESC"
+			ideology = despotism_subtype
+			traits = {  }
+			expire="1999.1.1.1"
+		}
+	}
+}

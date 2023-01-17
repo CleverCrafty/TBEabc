@@ -1,0 +1,150 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "TBE_country_info_container"
+		orientation = center
+		Origo = center
+		size = { width = 798 height = 491 }
+		position = { x = 0  y= 0 }  
+		moveable = yes 
+		clipping = no
+		background = {
+			spriteType = "GFX_TBE_ci_bg"
+			size = { width = 100% height = 100% }
+			position = {
+				x = 0
+				y = 0
+			}
+		}
+		
+		iconType = {
+			name = "TBE_ci_view"
+			spriteType = "GFX_TBE_ci_view_SOV"
+			position = { x = 42 y = -280 }
+			Orientation = lower_left
+
+		}
+		buttonType = {
+			name = "TBE_ci_information_topbar"
+			position = { x = 215  y = -30 }
+			spriteType = "GFX_TBE_tab_botton"
+			orientation = upper_left
+			buttonText = "TBE_ci_information_topbar_text"
+			font = "hoi_18mbs"
+		}
+		buttonType = {
+			name = "TBE_ci_condition_topbar"
+			position = { x = 330  y = -30 }
+			spriteType = "GFX_TBE_tab_botton"
+			orientation = upper_left
+			buttonText = "TBE_ci_condition_topbar_text"
+			font = "hoi_18mbs"
+		}
+		buttonType = {
+			name = "TBE_ci_timeline_topbar"
+			position = { x = 445  y = -30 }
+			spriteType = "GFX_TBE_tab_botton"
+			orientation = upper_left
+			buttonText = "TBE_ci_timeline_topbar_text"
+			font = "hoi_18mbs"
+		}
+		iconType = {
+			name = "TBE_ci_bg_2"
+			spriteType = "GFX_TBE_ci_bg"
+			size = { width = 100% height = 100% }
+			position = {
+				x = 0
+				y = 0
+			}
+			alwaystransparent = yes 
+		}
+
+		iconType = {
+			name = "TBE_ci_icon"
+			spriteType = "GFX_TBE_ci_icon_SOV"
+
+
+			position = { x = 42 y = 36 }
+			Orientation = upper_left
+		}
+
+		buttonType = {
+			name = "TBE_ci_btn"
+			position = { x = 28  y = -70 }
+			spriteType = "GFX_TBE_ci_botton"
+			orientation = lower_left
+		}
+		instantTextboxType = {
+			name = "TBE_ci_btn_text" 
+			position = { x = 28 y = -60  }
+			orientation = lower_left
+			font = "hoi_18mbs"
+			text = "TBE_ci_btn"		
+			maxWidth = 120
+			maxHeight = 20
+			fixedsize = yes
+			format = center
+			alwaystransparent = yes 
+		}
+
+
+		instantTextboxType = {
+			name = "TBE_ci_title_text" 
+			position = { x = 260 y = 60 }
+			font = "Bomb_36"
+			text = "TBE_ci_title"		
+			maxWidth = 450
+			maxHeight = 80
+			fixedsize = yes
+			format = center
+		}
+		#containerWindowType = {
+			#name = "TBE_ci_text_container" 
+			#position = { x = 0 y = 120 }
+			#size = 
+			instantTextboxType = {
+				name = "TBE_ci_text_inner" 
+				position = { x = 240 y = 120 }
+				scrollbarType = standardtext_slider
+				font = "aldrich_20_outline"        
+				text = "TBE_ci_text"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 500 
+				maxHeight = 300
+				format = left  
+			}
+		#}
+		instantTextboxType = {
+			name = "TBE_ci_tip_text" 
+			position = { x = 245 y = 370 }
+			font = "Bomb_28"
+			text = "TBE_ci_tip"		
+			maxWidth = 450
+			maxHeight = 80
+			fixedsize = yes
+			format = center
+		}
+
+
+		iconType = {
+			name = "TBE_HOI_logo"
+			quadtexturesprite = "GFX_TBE_HOI_logo"
+			position = { x = 310 y = 80 }
+			orientation = upper_left
+		}
+		iconType = {
+			name = "TBE_logo"
+			quadtexturesprite = "GFX_TBE_logo"
+			position = { x = 222 y = 280 }
+			orientation = upper_left
+			scale = 1.4
+		}
+
+
+
+
+
+	}
+	
+	
+}

@@ -1,0 +1,27 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				meta_effect = {
+					text = {
+						set_variable = {
+							TBE_country_info = [country_info_tag]
+						}
+					}
+					country_info_tag = "[THIS.GetTag]"
+				}
+			}
+			random_country = {
+				limit = {
+					is_ai = no
+				}
+				meta_effect = {
+					text = {
+						play_song = TBE_ci_[country_info_tag]
+					}
+					country_info_tag = "[THIS.GetTag]"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,14 @@
+﻿l_english:
+##这堆东西不要改
+ Superevents_title:0 "[Superevents_title]"
+ Superevents_desc:0 "[Superevents_desc]"
+ Superevents_btn:0 "[Superevents_btn]"
+###这些你自己改
+ Superevents_title_1:0 "苏维埃联盟的崩溃"
+ Superevents_desc_1:0 "\n“历史早已证明，伟大的革命斗争会造就伟大人物，\n使过去不可能发挥的天才发挥出来。”\n———列宁"
+ Superevents_btn_1:0 "漆黑的夜"
+
+ Superevents_title_2:0 "第一次南京危机"
+ Superevents_desc_2:0 "\n“白眼观天下。”\n——宋教仁"
+ Superevents_btn_2:0 "南京又在流血。"
+

@@ -1,0 +1,21 @@
+focus_tree = {
+	id = TBE_Mongolia_foucs
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MON
+		}
+	}
+	default = no
+	focus = {
+		id = MON_1
+		icon = GFX_goal_jap_xinnian
+		cost = 2.00
+		x = 7
+		y = 0
+		completion_reward = {
+			
+		}
+	}
+}

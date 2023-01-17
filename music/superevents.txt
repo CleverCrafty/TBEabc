@@ -1,0 +1,18 @@
+
+music_station = "Superevents"
+
+music = {
+	song = "whhz"
+	chance = {
+		factor = 0
+	}
+}
+music = {
+	song = "abcd"
+	chance = {
+		factor = 0
+	}
+}
+
+
+

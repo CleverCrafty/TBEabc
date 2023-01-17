@@ -1,0 +1,18 @@
+characters = {
+	AOI_Amedeo_di_Savoia = {
+		name="阿梅迪奥·迪·萨沃亚"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/AOI/Amedeo_di_Savoia.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_amedeo_DESC"
+			ideology=colonialism_sub
+			traits = { }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}	

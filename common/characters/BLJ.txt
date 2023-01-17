@@ -1,0 +1,16 @@
+characters = {
+	BLJ_gangse = {
+		name = "冈瑟.吕特宴斯"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BLJ/gangse.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_gangse_DESC"
+			ideology = nazism
+			trait s= {  }
+			expire="1999.1.1.1"
+		}
+	}
+}	

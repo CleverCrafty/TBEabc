@@ -1,0 +1,18 @@
+add_namespace = USA_news #美国新闻
+ ##########美国新闻########
+ news_event = {
+	id = USA_news.1
+	title = USA_news.1.t
+	desc = USA_news.1.desc
+	picture = GFX_GFX_USA_yuanzidan
+
+    major = yes
+    is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = USA_news.1.a
+    }	
+}
+
+

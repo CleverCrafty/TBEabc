@@ -1,0 +1,16 @@
+characters = {
+	KMT_jiang_jie_shi = {
+		name = "蒋介石"
+		portraits={
+			civilian = {
+				large = "gfx/interface/azurlane/salachagif.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_jiang_jie_shi_DESC"
+			ideology = despotism_subtype
+			traits= {  }
+			expire="1999.1.1.1"
+		}
+	}
+}	

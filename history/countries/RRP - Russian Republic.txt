@@ -1,0 +1,32 @@
+﻿capital = 40 #首都省份
+
+oob = "1946_AOI" #国家军队文件,将AOI替换为你正在填的国家tag
+
+set_research_slots = 3 #开局科研槽
+set_stability = 0.5 #稳定度
+set_war_support = 0.25 #战争支持度
+
+add_ideas = {} #民族精神
+
+set_convoys = 0 #开局运输船
+
+recruit_character = RRP_kelunsiji #领导人代码，这项可以先不填
+
+set_politics = {
+	ruling_party = authoritarian #填执政党 就是下面那几个意识形态
+	last_election = "1926.5.8" #不用管
+	election_frequency = 1000 #不用管
+	elections_allowed = no #不用管
+}
+set_popularities = {
+	extreme_militarism = 0 #极端军国主义
+	national_socialism = 0 #民族社会主义
+	fascism = 0 #法西斯
+	despotism = 0 #专制主义
+	authoritarian = 15 #威权主义
+	conservative = 20 #保守主义
+	liberal = 30 #自由主义
+	social_democracy = 30 #社会民主主义
+	social = 0 #社会主义
+	communism = 5 #共产主义
+}

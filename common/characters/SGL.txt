@@ -1,0 +1,16 @@
+characters = {
+	SGL_maike = {
+		name = "麦克迪尔米德"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SGL/maike.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_maike_DESC"
+			traits= {  }
+			ideology = fascism_ideology
+			expire="1999.1.1.1"
+		}
+	}
+}	

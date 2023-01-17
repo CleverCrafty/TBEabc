@@ -1,0 +1,31 @@
+add_namespace = KMT #美国新闻
+ ##########美国新闻########
+ country_event = {
+	id = KMT.1
+	title = KMT.1.t
+	desc = KMT.1.desc
+	
+
+    major = yes
+    is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = KMT.1.a
+
+		hidden_effect = {
+			KMT_jiang_jie_shi = {
+			
+				set_portraits={
+					civilian = {
+						large = "gfx/leaders/KMT/JIANG_JIE_SHI_cai_dan.dds"
+					}
+				}
+				
+			}
+			
+		}
+		custom_effect_tooltip = caidan1	 
+
+	}
+ }	

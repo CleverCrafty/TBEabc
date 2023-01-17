@@ -1,0 +1,55 @@
+﻿l_english:
+ LOADING_GUI:0 "打开时空中转枢纽"
+ LOADING_MAP_SPRITES:0 "稳定TBE世界线"
+ LOADING_DATABASES:0 "重新分配历史人物"
+
+ INIT_MAP_LOGIC:0 "修正错误的物品摆放"
+
+ LOADING_HISTORY:0 "排除祖父悖论" 
+
+ LOAD_EVENTS:0 "强行安排“巧合”"
+
+ INIT_GAMESTATE:0 "启动TBE世界"
+
+ LOAD_FLAGS:0 "安葬休伊朗"
+
+ CREATING_CHKSUM:0 "组装大和号"
+
+ GENERATING_GRADIENT_BORDERS:0 "叫“将机枪向左移5米”"
+
+ CREATING_PROVINCE: "清洗国际纵队"
+
+ LOAD_GFX_PDXMAP_BORDERS:0 "执行闪电战..."
+
+ LOAD_GFX_PDXMAP_SHADERS:0 "接受法国投降..."
+
+ LOAD_GFX_PDXMAP_TERRAIN:0 "在多佛登陆..."
+
+ LOAD_GFX_PDXMAP_RIVERS:0 "为乔治VI准备加拿大机票..."
+
+ LOAD_GFX_PDXMAP_STATIC_OBJECTS:0 "转移列宁遗体..."
+
+ LOAD_GFX_PDXMAP_TEXTURES:0 "在莫斯科阅兵..."
+
+ LOAD_GFX_PDXMAP_TREES:0 "给美国一点小小的日本震撼..."
+
+ LOAD_GFX:0 "签署和平条约..."
+
+ PRECALC_NAVAL_DIST:0 "成立专员辖区..."
+
+ LOADING_MAIN_MENU:0 "打扫苏德战场..."
+
+ EXITING_TO_FRONTEND:0 "打捞英美沉船..."
+
+ LOAD_INIT:0 "清理战场"
+
+ PROC_FLAGS:0 "进行意识形态宣传"
+
+ EXECUTE_HISTORY:0 "枪毙抵抗组织"
+
+ LOADING_SAVEGAME:0 "重置世界线： $NAME$..."
+
+ LOADING_SAVEGAME_NO_NAME:0 "重置世界线..."
+
+ TBE_SELECT_SCENARIO:0 "揭幕"
+

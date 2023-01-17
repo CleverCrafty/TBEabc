@@ -1,0 +1,16 @@
+characters = {
+	BLT_aolier = {
+		name = "奥利尔.莫德雷尔"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BLT/aolier.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_aolier_DESC"
+			ideology = ultranationalism
+			traits= {  }
+			expire="1999.1.1.1"
+		}
+	}
+}	

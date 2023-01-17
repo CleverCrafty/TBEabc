@@ -1,0 +1,16 @@
+characters={
+	VEN_eleazar_lópez_contreras={
+		name="罗慕洛·埃内斯托·贝坦科尔特·贝略"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/LUO_MU_TUO.dds"
+			}
+		}
+		country_leader={
+			ideology=social_democracy_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

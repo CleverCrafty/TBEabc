@@ -1,0 +1,16 @@
+characters = {
+	ZYF_daigaole = {
+		name = "ZYF_Charles_de_Gaulle"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/ZYF/daigaole.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_daigaole_DESC"
+			ideology = conservative_democracy_subtype
+			traits= {  }
+			expire="1999.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,55 @@
+ideas = {
+	country = {
+		101_zuozhan = {
+
+			picture = KMT_101_hongzha
+		
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+			
+		}
+		KMT_dangnei_touxiangpai = {   ###党内投降派
+
+			picture = KMT_dangnei_touxiangpai
+		
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+			
+		}
+		KMT_guli_wuyuan = {   ###孤立无援
+
+			picture = KMT_guli_wuyuan
+		
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+			
+		}
+		KMT_jihuang = {   ###饥荒
+
+			picture = KMT_jihuang
+		
+
+			removal_cost = -1
+			
+			modifier = {
+				
+			}
+			
+		}
+		
+		
+	}
+
+}

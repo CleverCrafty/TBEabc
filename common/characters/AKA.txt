@@ -1,0 +1,18 @@
+characters = {
+	POL_BOER = {
+		name="博尔.科莫罗夫斯基"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/AKA/Tadeusz_1.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FANXIANGJUN_DESC"
+			ideology=authoritarian_subtype
+			traits = { }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}	

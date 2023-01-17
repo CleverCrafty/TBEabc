@@ -1,0 +1,17 @@
+characters={
+	CHI_chiang_kaishek={
+		name=CHI_wang_jinwei
+		portraits={
+			civilian={
+				large = "gfx/leaders/CHI/WANG_JIN_WEI.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism_subtype
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}

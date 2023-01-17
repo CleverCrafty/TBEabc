@@ -1,0 +1,16 @@
+characters = {
+	GJS_weilianli = {
+		name = "威廉.李斯特"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/GJS/wei_lian_li.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_welianli_DESC"
+			ideology = Reichskommissariat_sub
+			traits= { zhuanyuan }
+			expire="1999.1.1.1"
+		}
+	}
+}	

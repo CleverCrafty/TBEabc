@@ -1,0 +1,24 @@
+
+scripted_gui = {  
+	Superevents_main_container = {
+        window_name = Superevents_main_container
+        context_type = player_context
+		
+		visible = {
+			has_variable = global.se_display
+			is_ai = no
+		}
+		triggers = {
+		}
+		effects = {
+			Superevents_exit_btn_click = { 
+				clr_global_flag = Superevents_center
+				clear_variable = global.se_display 			
+			}
+		}
+		properties = {
+			Superevents_picture_positioning_entry = { image = "[Superevents_getpicture]" } 			
+		}
+		
+	}
+}

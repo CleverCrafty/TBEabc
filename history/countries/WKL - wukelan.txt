@@ -1,0 +1,55 @@
+﻿capital = 259
+
+oob = "LIT_1936"
+
+set_research_slots = 3
+
+
+add_ideas = {
+	dui_wu_ke_lan_ren_de_canbao_tongzhi
+	de_guo_liang_cang
+	shuangchong_wukelan
+	}
+
+
+set_variable = {
+	var = iron_wolf_days_var
+	value = 100
+}
+
+recruit_character = WKL_ailixi
+
+
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+	gw_artillery = 1
+	tech_support = 1
+}
+
+set_convoys = 10
+
+
+
+set_politics = {
+	ruling_party = national_socialism #填执政党 就是下面那几个意识形态
+	last_election = "1926.5.8" #不用管
+	election_frequency = 1000 #不用管
+	elections_allowed = no #不用管
+}
+set_popularities = {
+	extreme_militarism = 0 #极端军国主义
+	national_socialism = 85 #国家社会主义
+	fascism = 9 #法西斯
+	despotism = 0 #专制主义
+	authoritarian = 0 #威权主义
+	conservative = 0 #保守主义
+	liberal = 0 #自由主义
+	social_democracy = 0 #社会民主主义
+	social = 0 #社会主义
+	communism = 6 #共产主义
+}
+

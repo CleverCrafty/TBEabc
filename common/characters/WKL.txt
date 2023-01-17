@@ -1,0 +1,16 @@
+characters = {
+	WKL_ailixi = {
+		name = "埃里希.科赫"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/WKL/ailixi.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_ailixi_DESC"
+			ideology = Reichskommissariat_sub
+			traits= { zhuanyuan }
+			expire="1999.1.1.1"
+		}
+	}
+}	

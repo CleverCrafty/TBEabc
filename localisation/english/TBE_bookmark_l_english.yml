@@ -1,0 +1,100 @@
+﻿l_english:
+ LOADING_GUI:0 "打开时空中转枢纽"
+ #"Loading GUI"
+
+ LOADING_MAP_SPRITES:0 "稳定TBE世界线"
+ #"Loading sprites"
+
+ LOADING_DATABASES:0 "重新分配历史人物"
+ #"Loading databases"
+
+ INIT_MAP_LOGIC:0 "修正错误的物品摆放"
+ #"Initialising map logic"
+
+ LOADING_HISTORY:0 "排除祖父悖论" 
+ #"Loading History"
+
+ LOAD_EVENTS:0 "强行安排“巧合”"
+ #"Loading Events"
+
+ INIT_GAMESTATE:0 "启动TBE世界"
+ #"Initialising game"
+
+ LOAD_FLAGS:0 "安葬休伊朗"
+ #"Creating Flags"
+
+ CREATING_CHKSUM:0 "组装大和号"
+ #"Creating checksum"
+
+ GENERATING_GRADIENT_BORDERS:0 "叫“将机枪向左移5米”"
+ #"Generating Gradient Borders"
+
+ CREATING_PROVINCE: "清洗国际纵队"
+ #"Creating Province"
+
+ LOAD_GFX_PDXMAP_BORDERS:0 "执行闪电战..."
+ #"Loading Map(Creating Borders)..."
+
+ LOAD_GFX_PDXMAP_SHADERS:0 "接受法国投降..."
+ #"Loading Map(Creating Shaders)..."
+
+ LOAD_GFX_PDXMAP_TERRAIN:0 "在多佛登陆..."
+ #"Loading Map(Creating Terrain)..."
+
+ LOAD_GFX_PDXMAP_RIVERS:0 "为乔治VI准备加拿大机票..."
+ #"Loading Map(Creating Rivers)..."
+
+ LOAD_GFX_PDXMAP_STATIC_OBJECTS:0 "转移列宁遗体..."
+ #"Loading Map(Creating objects)..."
+
+ LOAD_GFX_PDXMAP_TEXTURES:0 "在莫斯科阅兵..."
+ #"Loading Map(Creating Textures)..."
+
+ LOAD_GFX_PDXMAP_TREES:0 "给美国一点小小的日本震撼..."
+ #"Loading Map(Creating Trees)..."
+
+ LOAD_GFX:0 "签署和平条约..."
+ #"Loading Graphics"
+
+ PRECALC_NAVAL_DIST:0 "成立专员辖区..."
+ #"Precalculating Naval Distances"
+
+ LOADING_MAIN_MENU:0 "打扫苏德战场..."
+ #"Loading main menu"
+
+ EXITING_TO_FRONTEND:0 "打捞英美沉船..."
+ #"Returning to main menu"
+
+ LOAD_INIT:0 "清理战场"
+ #"Initialising Game..."
+
+ PROC_FLAGS:0 "进行意识形态宣传"
+ #"Processing Flags"
+
+ EXECUTE_HISTORY:0 "枪毙抵抗组织"
+ #"Executing history"
+
+ LOADING_SAVEGAME:0 "重置世界线： $NAME$..."
+ #"Loading savegame: $NAME$"
+
+ LOADING_SAVEGAME_NO_NAME:0 "重置世界线..."
+ #"Loading savegame"
+
+ TBE_SELECT_SCENARIO:0 "揭幕"
+
+ TBE_America_title:0 "孤星日暮"
+ TBE_America:0 "华盛顿 15：30"
+ TBE_America_desc:0 "旧大陆的灯光已经熄灭，美国与她的盟友浴血奋战数年却仍然无法阻挡轴心国的推进，在最终结束了惨烈的世界大战之后，美国失去了太平洋和大西洋上的一切。\n\n旧日盟友们舔舐着自己的伤口，等待着返回家乡的机会，而自由的灯塔在巨浪拍打和蚁虫撕咬下摇摇欲坠，华盛顿必须知晓，整个自由世界，悬于一线之上。"
+
+ TBE_Europe_title:0 "子夜渐至"
+ TBE_Europe:0 "柏林 21：30"
+ TBE_Europe_desc:0 "自20年代到如今，法西斯主义和国社主义这对兄弟已经携手一起，粉碎了英法的旧秩序，并在欧洲建立起了属于自己的新秩序，柏林-罗马轴心随心所欲的在地图上作画，两位帝国领袖都欲图重现祖辈的辉煌。\n目光东望，最终敌人悬而未解；回盼西疆，美国人和英国人欲图卷土重来。柏林与东京各怀鬼胎，德国与意大利在巴尔干乃至中东的摩擦也愈发剧烈，彼时的“同盟们”都蠢蠢欲动，逐渐显露出新的野心。更糟糕的是，伟大帝国领袖们的健康区况日下，德国乃至全欧洲的未来究竟在何方？"
+
+ TBE_Russia_title:0 "破晓终临"
+ TBE_Russia:0 "莫洛托夫 1：30"
+ TBE_Russia_desc:0 "伟大的卫国战争已经六年矣，纳粹德国入侵者践踏我们的家园，奴役我们的同胞，基辅，明斯克，斯大林格勒，列宁格勒，莫斯科，祖国母亲被敌寇蹂躏。苏联人民团结一心，红军将士奋勇杀敌，数百万男儿血洒疆场，但...\n尽管盟友已经离去，侵略者谋划着下一次入侵。涅夫斯基与无数俄罗斯英灵注视着我们，为了祖国母亲，为了家园，纳粹鬼子们必将永堕冰湖。"
+ TBE_Russia_bookmark_desc:0 "从十月革命到伟大的卫国战争，联盟经历了无数坎坷，曾经作为世界无产阶级希望的灯塔，已在挂着万字旗的钢铁洪流的冲击下变得残破不堪，纵使莫斯科和列宁格勒已被德帝国主义侵占，纵使世界反法西斯联盟已经向轴心国投降，但对世界无产阶级忠贞不屈的红军不会，从1945年莫斯科沦陷的灾难中，红军在阿尔汉格尔斯克—阿斯特拉罕线外构建了最终的防线，终于让德帝国主义侵略的步伐停了下来，联盟于莫洛托夫城重新组织了起来。\n但伟大的卫国战争失败的伤口长久不能愈合，失去了东欧黑土地后，西伯利亚的冻土难以承载如此庞大的人口，粮食危机很快就发展成了一场饥荒，在战争期间，乌拉尔早已转变成一座座重工业基地与坦克装配厂，然而技术劳动力数量与素质问题以及机床技术与产量的欠缺让联盟工业建设的缺陷进一步放大，英勇的红军也不得不面对理论建设不足与组织混乱的困境，纵使如此，联盟仍然没有放弃抵抗，在布尔什维克党的领导下，任何困难终将被解决，而须发斑白的老红军也会看到领土光复的一天。"
+ 
+ TBE_Asia_title:0 "旭日东起"
+ TBE_Asia:0 "东京 6：30"
+ TBE_Asia_desc:0 "殖民者的空中楼阁土崩瓦解，旭日旗骄傲的飘扬在世界的东方，联合舰队在太平洋和印度洋上遨游，在日本带领下，东亚“团结”在共荣圈里，携手共进，走向共荣。那旭日的阴影里，也只是“迫不得已的反击”所造成的“小小”伤害罢了。\n明治时代所描绘的美好前景激励着日本乃至全共荣圈前进，而不合时代的制度却拖住了前进的脚步。东京内的勾心斗角影响着共荣圈的一切，新的帝国有自己野望。美国人在大洋的另一端默默的舔舐着伤口，而在太阳照不到的地方，最后的火焰在静静的燃烧。"

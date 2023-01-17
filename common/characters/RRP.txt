@@ -1,0 +1,18 @@
+characters = {
+	RRP_kelunsiji = {
+		name="亚历山大·弗多洛维奇·克伦斯基"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/RRP/RRP_kelunsiji.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_KELUNSIJI_DESC"
+			ideology=Interim_Government_sub
+			traits = { }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}	

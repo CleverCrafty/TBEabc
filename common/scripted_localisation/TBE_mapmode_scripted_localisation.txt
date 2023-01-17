@@ -1,0 +1,124 @@
+﻿defined_text = {
+	name = GetTBEMapIcon
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = GER }
+			NOT = {
+				has_global_flag = german_civil_war_speervic
+			}
+		}
+		localization_key = "GFX_econ_sphere_icon_GER"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = GER }
+			has_global_flag = german_civil_war_speervic
+		}
+		localization_key = "GFX_econ_sphere_icon_ZV_GER"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = JAP }
+		}
+		localization_key = "GFX_econ_sphere_icon_JAP"
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { ECON_SPHERE_LEADER = ITA }
+				check_variable = { ECON_SPHERE_LEADER = IBR }
+			}
+			NOT = {
+				has_global_flag = Triumvirate_Collapse
+			}
+		}
+		localization_key = "GFX_econ_sphere_icon_ITA_TRI"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = ITA }
+			has_global_flag = Triumvirate_Collapse
+		}
+		localization_key = "GFX_econ_sphere_icon_ITA"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = IBR }
+			has_global_flag = Triumvirate_Collapse
+		}
+		localization_key = "GFX_econ_sphere_icon_IBR"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = USA }
+		}
+		localization_key = "GFX_econ_sphere_icon_USA"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = ARG }
+		}
+		localization_key = "GFX_econ_sphere_icon_ARG"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = BRA }
+		}
+		localization_key = "GFX_econ_sphere_icon_BRA"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = MEX }
+		}
+		localization_key = "GFX_econ_sphere_icon_MEX"
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { ECON_SPHERE_LEADER = FFR }
+				AND = {
+					check_variable = { ECON_SPHERE_LEADER = FRA }
+					OR = {
+						has_global_flag = FFR_reclamation_successful
+						has_global_flag = FFR_reconciliation_happened
+					}
+				}
+			}
+		}
+		localization_key = "GFX_econ_sphere_icon_FFR"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = WOL }
+		}
+		localization_key = "GFX_econ_sphere_icon_WOL"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = CAO }
+		}
+		localization_key = "GFX_econ_sphere_icon_CAO"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = ADN }
+		}
+		localization_key = "GFX_econ_sphere_icon_ADN"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = CME }
+		}
+		localization_key = "GFX_econ_sphere_icon_CME"
+	}
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = ENG }
+		}
+		localization_key = "GFX_econ_sphere_icon_ENG"
+	}
+	text = {
+		localization_key = "GFX_econ_sphere_icon_none"
+	}
+}
+

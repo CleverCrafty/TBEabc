@@ -1,0 +1,16 @@
+haracters = {
+	SRW_milan = {
+		name = "米兰.内迪奇"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/SRW/milan.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_milan_DESC"
+			traits= {  }
+			ideology = fascism_ideology
+			expire="1999.1.1.1"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+characters = {
+	NOR_Josef_Terboven = {
+		name="约瑟夫·泰尔波文"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/NOR/NOR_ZHUANYUAN_Josef_Terboven.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_NOR_ZHUANYUAN_Josef_Terboven_DESC"
+			ideology=Reichskommissariat_sub
+			traits = { }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}	

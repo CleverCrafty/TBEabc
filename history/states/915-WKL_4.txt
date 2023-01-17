@@ -1,0 +1,17 @@
+state={
+	id=915
+	name="STATE_915"
+	state_category = rural 
+	history = {
+		owner = WKL
+		
+		add_core_of = WKL
+	
+	}
+	provinces={
+		535 560 3496 6415 6579 9520 11503 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

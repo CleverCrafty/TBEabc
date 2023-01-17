@@ -1,0 +1,16 @@
+characters = {
+	FRJ_baolusi = {
+		name = "弗雷德里克·威廉·保卢斯"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/FRJ/baolusi.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_baolusi_DESC"
+			ideology = Reichskommissariat_sub
+			traits= { zhuanyuan }
+			expire="1999.1.1.1"
+		}
+	}
+}	

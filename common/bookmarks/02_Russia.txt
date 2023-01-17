@@ -1,0 +1,61 @@
+bookmarks = {
+	bookmark = {
+		name = "TBE_Russia"
+		desc = "TBE_Russia_desc"
+		date = 1946.1.2.1
+		picture = "GFX_bookmark_TBE_Russia"
+		default_country = "SOV"
+		default = yes
+		
+		"SOV"={
+			history = "TBE_Russia_bookmark_desc"
+			ideology = communism
+			ideas = {
+				idea_SOV_sovie_industry_1
+				idea_SOV_bolshevik_1
+				idea_SOV_sky_in_unrest_1
+			}
+			focuses = {
+				S0V_17
+				SOV_26
+				SOV_18
+			}	
+		}
+
+
+
+		# minors from DLC ####
+		"PRC"={
+			minor = yes
+			history = "PRC_GATHERING_STORM_DESC"
+			ideology = communism
+			ideas = {
+				PRC_the_long_march_1
+				PRC_low_popular_support_3
+				PRC_power_struggles
+			}
+			focuses = {
+				PRC_infiltration
+				PRC_maoism
+				PRC_anti_japanese_expedition
+			}
+		}
+		"MON"={
+			minor = yes
+			history = "AST_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+				AST_great_depression_1
+			}
+			focuses = {
+				AST_never_another_gallipoli
+				AST_support_indonesian_uprising
+				AST_delegation_to_china
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,1881 @@
+spriteTypes = {	
+
+
+    #########################日本###################
+	SpriteType = {
+		name = "GFX_JAP_A_1_xin_de_yi_nian_shine"
+		texturefile = "gfx/interface/goals/JAP/JAP_A_1_xin_de_yi_nian.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/JAP/JAP_A_1_xin_de_yi_nian.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/JAP/JAP_A_1_xin_de_yi_nian.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+    ###########################葡萄牙################
+  	SpriteType = {
+			name = "GFX_goal_POR_yanhua_shine" #名字
+			texturefile = "gfx/interface/goals/POR/POR_1_2_LI_SI_BEN_yan_hua.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_2_LI_SI_BEN_yan_hua.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_2_LI_SI_BEN_yan_hua.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+	}
+
+	SpriteType = {
+			name = "GFX_goal_POR_xingnian_shine" #名字
+			texturefile = "gfx/interface/goals/POR/POR_1_1_1946.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_1_1946.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_1_1946.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+	}	
+		
+	SpriteType = {
+			name = "GFX_goal_POR_xinshufabu_shine" #名字
+			texturefile = "gfx/interface/goals/POR/POR_1_3_salacha_fabuhui" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_3_salacha_fabuhui" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_3_salacha_fabuhui" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+	}
+
+	SpriteType = {
+			name = "GFX_goal_POR_zhengshi_shine" #名字
+			texturefile = "gfx/interface/goals/POR/POR_1_4_tan_dian_zheng_shi.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_4_tan_dian_zheng_shi.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_4_tan_dian_zheng_shi.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+	}
+
+		SpriteType = {
+			name = "GFX_goal_POR_xiawucha_shine" #名字
+			texturefile = "gfx/interface/goals/POR/POR_1_5_xiawucha.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_5_xiawucha.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_5_xiawucha.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+
+		SpriteType = {
+			name = "GFX_goal_POR_sanrenzu_shine" #名字
+			texturefile = "gfx/interface/goals/POR/POR_1_6_san_ren_zu.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_6_san_ren_zu.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_6_san_ren_zu.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+
+		SpriteType = {
+			name = "GFX_goal_POR_zhunweilakai_shine" #名字
+			texturefile = "gfx/interface/goals/POR/POR_1_7_zhunbei_kaimu.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_7_zhunbei_kaimu.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_7_zhunbei_kaimu.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+
+		SpriteType = {
+			name = "GFX_goal_POR_guomingdahui_shine" #名字
+			texturefile = "gfx/interface/goals/POR/POR_1_8_guo_min_dahui.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_8_guo_min_dahui.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/POR/POR_1_8_guo_min_dahui.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		 #######苏联国策树
+		SpriteType = {
+			name = "GFX_goal_SOV_1_lianmeng_zhi_shan_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_1_lianmeng_zhi_shan.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_1_lianmeng_zhi_shan.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_1_lianmeng_zhi_shan.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_2_1946JINGJI_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_2_1946JINGJI.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_2_1946JINGJI.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_2_1946JINGJI.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_3_JI_HUANG_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_3_JI_HUANG.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_3_JI_HUANG.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_3_JI_HUANG.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_4_DAIGONG_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_4_DAIGONG.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_4_DAIGONG.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_4_DAIGONG.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_5_JI_SUAN_PEIJI_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_5_JI_SUAN_PEIJI.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_5_JI_SUAN_PEIJI.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_5_JI_SUAN_PEIJI.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_6_DINGZHENG_JIA_GE_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_6_DINGZHENG_JIA_GE.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_6_DINGZHENG_JIA_GE.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_6_DINGZHENG_JIA_GE.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_7_JISUAN_PEIJI_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_7_JISUAN_PEIJI.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_7_JISUAN_PEIJI.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_7_JISUAN_PEIJI.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_8_ZIYUAN_SHENGCHAN_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_8_ZIYUAN_SHENGCHAN.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_8_ZIYUAN_SHENGCHAN.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_8_ZIYUAN_SHENGCHAN.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_10_CHULI_HUNLUAN_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_10_CHULI_HUNLUAN.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_10_CHULI_HUNLUAN.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_10_CHULI_HUNLUAN.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_9_XIUXIU_LIANMENG_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_9_XIUXIU_LIANMENG.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_9_XIUXIU_LIANMENG.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_9_XIUXIU_LIANMENG.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_11_SULIAN_SHEHUI_WENT_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_11_SULIAN_SHEHUI_WENT.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_11_SULIAN_SHEHUI_WENT.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_11_SULIAN_SHEHUI_WENT.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_21_ZHIMIAN_TEYU_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_21_ZHIMIAN_TEYU.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_21_ZHIMIAN_TEYU.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_21_ZHIMIAN_TEYU.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_22_LEIDAZHAN_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_22_LEIDAZHAN.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_22_LEIDAZHAN.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_22_LEIDAZHAN.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_23_FANYYU_WANGLUO_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_23_FANYYU_WANGLUO.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_23_FANYYU_WANGLUO.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_23_FANYYU_WANGLUO.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_24_DIXIA_SHEQU_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_24_DIXIA_SHEQU.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_24_DIXIA_SHEQU.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_24_DIXIA_SHEQU.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_24_HOUFANG_ZHANXIAN_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_24_HOUFANG_ZHANXIAN.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_24_HOUFANG_ZHANXIAN.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_24_HOUFANG_ZHANXIAN.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_12_MOLUOTUOFU_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_12_MOLUOTUOFU.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_12_MOLUOTUOFU.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_12_MOLUOTUOFU.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_13_MALINKEFU_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_13_MALINKEFU.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_13_MALINKEFU.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_13_MALINKEFU.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_14_HUIJIAN_JAILINING_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_14_HUIJIAN_JAILINING.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_14_HUIJIAN_JAILINING.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_14_HUIJIAN_JAILINING.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_15_WENHUAGEXIN_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_15_WENHUAGEXIN.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_15_WENHUAGEXIN.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_15_WENHUAGEXIN.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_16_JIANCHILUXIAN_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_16_JIANCHILUXIAN.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_16_JIANCHILUXIAN.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_16_JIANCHILUXIAN.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_18_JIEJI_DOUZHENG_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_18_JIEJI_DOUZHENG.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_18_JIEJI_DOUZHENG.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_18_JIEJI_DOUZHENG.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_19_TEBIE_HUIYI_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_19_TEBIE_HUIYI.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_19_TEBIE_HUIYI.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_19_TEBIE_HUIYI.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_20_FANDUI_SHIJIEZHUYI_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_20_FANDUI_SHIJIEZHUYI.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_20_FANDUI_SHIJIEZHUYI.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_20_FANDUI_SHIJIEZHUYI.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_25_QI_HEI_DE_YE_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_25_QI_HEI_DE_YE.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_25_QI_HEI_DE_YE.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_25_QI_HEI_DE_YE.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+		SpriteType = {
+			name = "GFX_goal_SOV_26_DAN_GUANGMINGSHANGCUN_shine" #名字
+			texturefile = "gfx/interface/goals/SOV/SOV_26_DAN_GUANGMINGSHANGCUN.dds" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_26_DAN_GUANGMINGSHANGCUN.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/SOV/SOV_26_DAN_GUANGMINGSHANGCUN.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+
+		######莫斯科第一阶段
+
+
+		SpriteType = {
+			name = "GFX_goal_MSK_2_shine" #名字
+			texturefile = "gfx/interface/goals/MSK/MSK_1_2_zhenglibaogao" #填路径
+			effectFile = "gfx/FX/buttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/MSK/MSK_1_2_zhenglibaogao" #填路径×2
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/MSK/MSK_1_2_zhenglibaogao" #填路径×3
+				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+
+		SpriteType = {
+			name = "GFX_goal_MSK_5_shine" #名字
+			texturefile = "gfx/interface/goals/MSK/MSK_1_5_wufachuji.dds" #填路径
+			effectFile = "gfx/FXttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/MSK/MSK_1_5_wufachuji.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/MSK/MSK_1_5_wufachuji.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+
+		SpriteType = {
+			name = "GFX_goal_MSK_3_shine" #名字
+			texturefile = "gfx/interface/goals/MSK/MSK_1_3_newidea.dds" #填路径
+			effectFile = "gfx/FXttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/MSK/MSK_1_3_newidea.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/MSK/MSK_1_3_newidea.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+
+		SpriteType = {
+			name = "GFX_goal_MSK_4_shine" #名字
+			texturefile = "gfx/interface/goals/MSK/MSK_1_7_huiyi.dds" #填路径
+			effectFile = "gfx/FXttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/MSK/MSK_1_7_huiyi.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/MSK/MSK_1_7_huiyi.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+		}
+
+		SpriteType = {
+			name = "GFX_goal_MSK_6_shine" #名字
+			texturefile = "gfx/interface/goals/MSK/MSK_1_6_last.dds" #填路径
+			effectFile = "gfx/FXttonstate.lua"
+			animation = {
+				animationmaskfile = "gfx/interface/goals/MSK/MSK_1_6_last.dds" #填路径×2
+				animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+				animationrotation = -90.0		
+				animationlooping = no			
+				animationtime = 0.75				
+				animationdelay = 0			
+				animationblendmode = "add"      
+				animationtype = "scrolling"     
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 2.0 y = 1.0 } 
+			}
+	
+			animation = {
+				animationmaskfile = "gfx/interface/goals/MSK/MSK_1_6_last.dds" #填路径×3
+				animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+				animationrotation = 90.0		
+				animationlooping = no			
+				animationtime = 0.75		
+				animationdelay = 0	
+				animationblendmode = "add"      
+				animationtype = "scrolling"      
+				animationrotationoffset = { x = 0.0 y = 0.0 }
+				animationtexturescale = { x = 1.0 y = 1.0 } 
+			}
+			legacy_lazy_load = no
+			#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	##################莫斯科第二阶段啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+	SpriteType = {
+		name = "GFX_goal_MSK_2_1_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_1_puleshidds.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_1_puleshidds.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_1_puleshidds.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_12_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_gexinzhengt.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_gexinzhengt.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_gexinzhengt.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+
+	SpriteType = {
+		name = "GFX_goal_MSK_2_2_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_2_pulushi.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_2_pulushi.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_2_pulushi.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_3_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_4_boke.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_4_boke.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_4_boke.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_4_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_3_saochuzapai.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_3_saochuzapai.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_3_saochuzapai.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_5_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_5_bestwuqi.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_5_bestwuqi.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_5_bestwuqi.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_6_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_last.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_last.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_last.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_7_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_runhuayou.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_runhuayou.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_runhuayou.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_8_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_12_shahete.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_12_shahete.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_12_shahete.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_9_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_9_jingjichongqi.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_9_jingjichongqi.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_9_jingjichongqi.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_10_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_10.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_10.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_10.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_11_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_8_jingjichongqi.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_8_jingjichongqi.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_8_jingjichongqi.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_13_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_7_kashe.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_7_kashe.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_7_kashe.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_14_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_SS.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_SS.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_SS.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_15_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_where_ss.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_where_ss.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_where_ss.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_16_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_we_pulushi.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_we_pulushi.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_we_pulushi.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_17_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_last_last_one.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_last_last_one.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_last_last_one.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2_18_shine" #名字
+		texturefile = "gfx/interface/goals/MSK/MSK_2_last_last_last.dds" #填路径
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_last_last_last.dds" #填路径×2
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 	
+			animationrotation = -90.0		
+			animationlooping = no			
+			animationtime = 0.75				
+			animationdelay = 0			
+			animationblendmode = "add"      
+			animationtype = "scrolling"     
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 2.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MSK/MSK_2_last_last_last.dds" #填路径×3
+			animationtexturefile = "gfx/interface/goalsine_overlay.dds" 
+			animationrotation = 90.0		
+			animationlooping = no			
+			animationtime = 0.75		
+			animationdelay = 0	
+			animationblendmode = "add"      
+			animationtype = "scrolling"      
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+		#恭喜我自己又他妈填完一个该死的国策图标
+	}
+
+
+}

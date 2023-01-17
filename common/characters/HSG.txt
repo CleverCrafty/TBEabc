@@ -1,0 +1,16 @@
+characters = {
+	HSG_kuliao_bojue = {
+		name = "库里奥.巴尔巴塞蒂"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/HSG/kuliao_bojue.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_kuliao_bojue_DESC"
+			ideology = ultranationalism
+			traits= { ITA_tepai }
+			expire="1999.1.1.1"
+		}
+	}
+}	

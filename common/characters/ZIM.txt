@@ -1,0 +1,18 @@
+characters = {
+	ZIM_gefulei = {
+		name="戈弗雷.哈金斯"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ZIM/zim_gefulei.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_ZIM_gefulei_DESC"
+			ideology=colonialism_sub
+			traits = { }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}

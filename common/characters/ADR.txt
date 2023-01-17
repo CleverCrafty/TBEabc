@@ -1,0 +1,18 @@
+characters = {
+	ADR_baolisi = {
+		name="“安道尔公爵鲍里斯一世”"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/ADR/diyidagong_andaoer.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_FANXIANGJUN_DESC"
+			ideology=authoritarian_subtype
+			traits = { }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}	

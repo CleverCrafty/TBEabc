@@ -1,0 +1,36 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			USA = {
+				set_country_flag = HAS_ECON_SPHERE
+				set_variable = {
+					THIS.ECON_SPHERE_LEADER = THIS
+				}
+			}
+			GER = {
+				set_country_flag = HAS_ECON_SPHERE
+				set_variable = {
+					THIS.ECON_SPHERE_LEADER = THIS
+				}
+			}
+			JAP = {
+				set_country_flag = HAS_ECON_SPHERE
+				set_variable = {
+					THIS.ECON_SPHERE_LEADER = THIS
+				}
+			}
+			SOV = {
+				set_country_flag = HAS_ECON_SPHERE
+				set_variable = {
+					THIS.ECON_SPHERE_LEADER = THIS
+				}
+			}
+
+		}
+	}
+	on_monthly = {
+		effect = {
+			force_update_map_mode = { mapmode = TBE_test_map_mapmode }
+		}
+	}
+}

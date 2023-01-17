@@ -1,0 +1,17 @@
+characters = {
+	POL_anna_andersson = {
+		name="汉斯.弗兰克"
+		portraits = {
+			civilian = {
+				large="gfx/leaders/POL/HASI_FOLANKE.dds"
+			}
+		}
+		country_leader = {
+			ideology=national_socialism_subtype
+			traits = { }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+}	

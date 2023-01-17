@@ -1,0 +1,30 @@
+characters = {
+	BNL_ai_bashi = {
+		name = "爱德华八世"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BNL/aiba.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_aidehua_bashi_DESC"
+			ideology = despotism
+			traits = {  }
+			expire="1965.1.1.1"
+		}
+        BNL_ai_bashi = {
+		name = "风瑟.吕特晏斯"
+		portraits={
+			civilian = {
+				large = "gfx/leaders/BNL/lvte.dds"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_fense_lvte_DESC"
+			ideology = nazism
+			traits = {  }
+			expire="1965.1.1.1"
+		}
+	}	
+	}
+}			

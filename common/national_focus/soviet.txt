@@ -1,0 +1,501 @@
+focus_tree = {
+	id = soviet
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SOV
+		}
+	}
+	default = no
+	focus = {
+		id = SOV_1
+		icon = "GFX_goal_SOV_1_lianmeng_zhi_shan"
+		cost = 3.00
+		x = 11
+		y = 0
+		completion_reward = {
+			add_political_power = 50
+		}
+		
+	}
+	focus = {
+		id = SOV_2
+		icon = GFX_goal_SOV_2_1946JINGJI
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_1
+		}
+		x = 4
+		y = 1
+		completion_reward = {
+			hidden_effect = {
+				add_political_power = 50
+				add_stability = 0.05
+			}	
+			custom_effect_tooltip = SOV_2_tt
+		}
+
+	}
+	focus = {
+		id = SOV_3
+		icon = GFX_goal_SOV_3_JI_HUANG
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_2
+		}
+		x = 2
+		y = 2
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sovie_agriculture_stability_factor = 0.05
+				}
+				add_to_variable = {
+					SOV_sovie_agriculture_consumer_goods_factor = -0.05
+				}
+			}
+			custom_effect_tooltip = SOV_3_tt
+		}
+	}
+	focus = {
+		id = SOV_5
+		icon = GFX_goal_SOV_5_JI_SUAN_PEIJI
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_3
+		}
+		x = 2
+		y = 3
+		completion_reward = {
+			custom_effect_tooltip = SOV_5_tt
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sovie_agriculture_stability_factor = 0.05
+				}
+				add_to_variable = {
+					SOV_sovie_agriculture_monthly_population = 0.1
+				}
+			}
+
+		}
+	}
+	focus = {
+		id = SOV_7
+		icon = GFX_goal_SOV_7_JISUAN_PEIJI
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_5
+		}
+		x = 2
+		y = 4
+		completion_reward = {
+			custom_effect_tooltip = SOV_7_tt
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sovie_agriculture_stability_factor = 0.05
+				}
+				add_to_variable = {
+					SOV_sovie_agriculture_global_building_slots_factor = 0.1
+				}
+			}
+
+		}
+	}
+	focus = {
+		id = SOV_9
+		icon = GFX_goal_SOV_10_CHULI_HUNLUAN
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_7
+		}
+		x = 2
+		y = 5
+		completion_reward = {
+			custom_effect_tooltip = SOV_9_tt
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sovie_agriculture_stability_factor = -0.05
+				}
+				add_to_variable = {
+					SOV_sovie_agriculture_monthly_population = 0.1
+				}
+				add_to_variable = {
+					SOV_sovie_agriculture_consumer_goods_factor = 0.1
+				}
+			}
+
+		}
+	}
+	focus = {
+		id = SOV_4
+		icon = GFX_goal_SOV_4_DAIGONG
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_2
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+			custom_effect_tooltip = SOV_4_tt
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sovie_industry_industrial_capacity_factory = 0.05
+				}
+				add_to_variable = {
+					SOV_sovie_industry_production_factory_max_efficiency_factor = 0.05
+				}
+				add_to_variable = {
+					SOV_sovie_industry_production_factory_efficiency_gain_factor = -0.05
+				}
+			}
+
+		}
+	}
+	focus = {
+		id = SOV_6
+		icon = GFX_goal_SOV_6_DINGZHENG_JIA_GE
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_4
+		}
+		x = 6
+		y = 3
+		completion_reward = {
+			custom_effect_tooltip = SOV_6_tt
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sovie_industry_industrial_capacity_factory = 0.05
+				}
+				add_to_variable = {
+					SOV_sovie_industry_local_resources_factor = 0.1
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_8
+		icon = GFX_goal_SOV_8_ZIYUAN_SHENGCHAN
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_6
+		}
+		x = 6
+		y = 4
+		completion_reward = {
+			custom_effect_tooltip = SOV_8_tt
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sovie_industry_stability_factor = 0.1
+				}
+				add_to_variable = {
+					SOV_sovie_industry_consumer_goods_factor = -0.1
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_10
+		icon = GFX_goal_SOV_9_XIUXIU_LIANMENG
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_8
+		}
+		x = 6
+		y = 5
+		completion_reward = {
+			custom_effect_tooltip = SOV_10_tt
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sovie_industry_production_speed_buildings_factor = 0.05
+				}
+				add_to_variable = {
+					SOV_red_army_army_defence_factor = 0.1
+				}
+				add_to_variable = {
+					SOV_sovie_industry_production_speed_bunker_factor = 0.2
+				}
+			}
+		}
+	}
+	focus = {
+		id = SOV_11
+		icon = GFX_goal_SOV_11_SULIAN_SHEHUI_WENT
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_10
+		}
+		prerequisite = {
+			focus = SOV_9
+		}
+		x = 4
+		y = 6
+		completion_reward = {
+			add_political_power = 50
+			custom_effect_tooltip = SOV_11_tt
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sovie_industry_production_speed_buildings_factor = 0.05
+				}
+				add_to_variable = {
+					SOV_sovie_industry_stability_factor = 0.05
+				}
+				mark_focus_tree_layout_dirty = yes
+			}
+		}
+	}
+	focus = {
+		id = SOV_16
+		icon = GFX_goal_SOV_21_ZHIMIAN_TEYU
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_1
+		}
+		x = 11
+		y = 1
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sky_in_unrest_war_support_factor = 0.1
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = SOV_12
+		icon = GFX_goal_SOV_22_LEIDAZHAN
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_16
+		}
+		x = 11
+		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOV_12_radar_tech_bonus
+				bonus = 0.5
+				uses = 2
+				category = radar_tech
+			}
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sky_in_unrest_stability_factor = 0.1
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = SOV_13
+		icon = GFX_goal_SOV_23_FANYYU_WANGLUO
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_12
+		}
+		x = 11
+		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = SOV_13_cat_anti_air_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_anti_air
+			}
+		}
+
+	}
+	focus = {
+		id = SOV_14
+		icon = GFX_goal_SOV_24_DIXIA_SHEQU
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_13
+		}
+		x = 11
+		y = 4
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sky_in_unrest_production_speed_buildings_factor = 0.1
+				}
+				add_to_variable = {
+					SOV_sky_in_unrest_industry_free_repair_factor = 0.4
+				}
+
+				add_to_variable = {
+					SOV_sky_in_unrest_consumer_goods_factor = -0.05
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = SOV_15
+		icon = GFX_goal_SOV_24_HOUFANG_ZHANXIAN
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_14
+		}
+		x = 11
+		y = 6
+		completion_reward = {
+			hidden_effect = {
+				add_to_variable = {
+					SOV_sky_in_unrest_war_support_factor = 0.1
+				}
+				add_to_variable = {
+					SOV_sky_in_unrest_consumer_goods_factor = -0.05
+				}
+			}
+			mark_focus_tree_layout_dirty = yes
+		}
+
+	}
+	focus = {
+		id = S0V_17
+		icon = GFX_goal_SOV_12_MOLUOTUOFU
+		cost = 3.00
+		prerequisite = {
+			focus = SOV_1
+		}
+		mutually_exclusive = {
+			focus = SOV_18
+		}
+		x = 15
+		y = 1
+		allow_branch = {
+			AND = {
+				has_completed_focus = SOV_11
+				has_completed_focus = SOV_15
+			}
+		}
+	}
+	focus = {
+		id = SOV_18
+		icon = GFX_goal_SOV_13_MALINKEFU
+		cost = 3.00
+		prerequisite = {
+			focus = SOV_1
+		}
+		mutually_exclusive = {
+			focus = S0V_17
+		}
+		x = 19
+		y = 1
+		allow_branch = {
+			AND = {
+				has_completed_focus = SOV_11
+				has_completed_focus = SOV_15
+			}
+		}
+
+	}
+	focus = {
+		id = SOV_19
+		icon = GFX_goal_SOV_14_HUIJIAN_JAILINING
+		cost = 2.00
+		prerequisite = {
+			focus = S0V_17
+			focus = SOV_18
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = SOV_20
+		icon = GFX_goal_SOV_15_WENHUAGEXIN
+		cost = 2.00
+		prerequisite = {
+			focus = SOV_19
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = SOV_21
+		icon = GFX_goal_SOV_16_JIANCHILUXIAN
+		cost = 3.00
+		prerequisite = {
+			focus = SOV_20
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = SOV_23
+		icon = GFX_goal_SOV_18_JIEJI_DOUZHENG
+		cost = 3.00
+		prerequisite = {
+			focus = SOV_21
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = SOV_22
+		icon = GFX_goal_SOV_17_WENHEGAIGE
+		cost = 3.00
+		prerequisite = {
+			focus = SOV_20
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = SOV_24
+		icon = GFX_goal_SOV_19_TEBIE_HUIYI
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_22
+		}
+		x = 19
+		y = 5
+
+	}
+	focus = {
+		id = SOV_27
+		icon = GFX_goal_SOV_20_FANDUI_SHIJIEZHUYI
+		cost = 3.00
+		prerequisite = {
+			focus = SOV_23
+			focus = SOV_24
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = SOV_25
+		icon = GFX_goal_SOV_25_QI_HEI_DE_YE
+		cost = 1.50
+		prerequisite = {
+			focus = SOV_15
+		}
+		prerequisite = {
+			focus = SOV_11
+		}
+		prerequisite = {
+			focus = SOV_27
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = SOV_26
+		icon = GFX_shibudaiwogif
+		cost = 10.00
+		prerequisite = {
+			focus = SOV_25
+		}
+		x = 11
+		y = 8
+
+	}
+}

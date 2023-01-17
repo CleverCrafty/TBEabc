@@ -1,0 +1,25 @@
+
+state={
+	id=747
+	name="STATE_747"
+
+	history={
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+			7965 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces={
+		10346 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

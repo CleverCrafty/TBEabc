@@ -1,0 +1,3 @@
+TBE_to_be_a_Lucky_programer_trigger = {
+	is_debug = yes
+}

@@ -1,0 +1,266 @@
+spriteTypes = {	
+
+	#### 日本国策图标
+
+	SpriteType = {
+	name = "GFX_goal_jap_xinnian"
+	texturefile = "gfx/interface/goals/JAP/JAP_A_1_xin_de_yi_nian.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_jap_dongtiao"
+		texturefile = "gfx/interface/goals/JAP/JAP_A_2_dong_tiao_yin_ji.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_JAP_yihui"
+		texturefile = "gfx/interface/goals/JAP/JAP_A_3_JUN_bU.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_JAP_junbu"
+		texturefile = "gfx/interface/goals/JAP/JAP_A_3_JUN_bU.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_JAP_tianhuang"
+		texturefile = "gfx/interface/goals/JAP/JAP_A_4_tian_huang"			
+	}	
+	
+	###########葡萄牙#######
+	SpriteType = {
+		name = "GFX_goal_POR_xingnian"
+		texturefile = "gfx/interface/goals/POR/POR_1_1_1946.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_POR_yanhua"
+		texturefile = "gfx/interface/goals/POR/POR_1_2_LI_SI_BEN_yan_hua.dds"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_POR_xinshufabu"
+		texturefile = "gfx/interface/goals/POR/POR_1_3_salacha_fabuhui"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_POR_zhengshi"
+		texturefile = "gfx/interface/goals/POR/POR_1_4_tan_dian_zheng_shi.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_xiawucha"
+		texturefile = "gfx/interface/goals/POR/POR_1_5_xiawucha.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_sanrenzu"
+		texturefile = "gfx/interface/goals/POR/POR_1_6_san_ren_zu.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_zhunweilakai"
+		texturefile = "gfx/interface/goals/POR/POR_1_7_zhunbei_kaimu.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_guomingdahui"
+		texturefile = "gfx/interface/goals/POR/POR_1_8_guo_min_dahui.dds"			
+	}
+	 ###########苏联第一阶段#####
+	SpriteType = {
+		name = "GFX_goal_SOV_1_lianmeng_zhi_shan"
+		texturefile = "gfx/interface/goals/SOV/SOV_1_lianmeng_zhi_shan.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_2_1946JINGJI"
+		texturefile = "gfx/interface/goals/SOV/SOV_2_1946JINGJI.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_3_JI_HUANG"
+		texturefile = "gfx/interface/goals/SOV/SOV_3_JI_HUANG.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_4_DAIGONG"
+		texturefile = "gfx/interface/goals/SOV/SOV_4_DAIGONG.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_5_JI_SUAN_PEIJI"
+		texturefile = "gfx/interface/goals/SOV/SOV_5_JI_SUAN_PEIJI.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_6_DINGZHENG_JIA_GE"
+		texturefile = "gfx/interface/goals/SOV/SOV_6_DINGZHENG_JIA_GE.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_7_JISUAN_PEIJI"
+		texturefile = "gfx/interface/goals/SOV/SOV_7_JISUAN_PEIJI.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_8_ZIYUAN_SHENGCHAN"
+		texturefile = "gfx/interface/goals/SOV/SOV_8_ZIYUAN_SHENGCHAN.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_10_CHULI_HUNLUAN"
+		texturefile = "gfx/interface/goals/SOV/SOV_10_CHULI_HUNLUAN.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_9_XIUXIU_LIANMENG"
+		texturefile = "gfx/interface/goals/SOV/SOV_9_XIUXIU_LIANMENG.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_11_SULIAN_SHEHUI_WENT"
+		texturefile = "gfx/interface/goals/SOV/SOV_11_SULIAN_SHEHUI_WENT.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_21_ZHIMIAN_TEYU"
+		texturefile = "gfx/interface/goals/SOV/SOV_21_ZHIMIAN_TEYU.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_22_LEIDAZHAN"
+		texturefile = "gfx/interface/goals/SOV/SOV_22_LEIDAZHAN.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_23_FANYYU_WANGLUO"
+		texturefile = "gfx/interface/goals/SOV/SOV_23_FANYYU_WANGLUO.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_24_DIXIA_SHEQU"
+		texturefile = "gfx/interface/goals/SOV/SOV_24_DIXIA_SHEQU.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_24_HOUFANG_ZHANXIAN"
+		texturefile = "gfx/interface/goals/SOV/SOV_24_HOUFANG_ZHANXIAN.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_12_MOLUOTUOFU"
+		texturefile = "gfx/interface/goals/SOV/SOV_12_MOLUOTUOFU.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_13_MALINKEFU"
+		texturefile = "gfx/interface/goals/SOV/SOV_13_MALINKEFU.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_14_HUIJIAN_JAILINING"
+		texturefile = "gfx/interface/goals/SOV/SOV_14_HUIJIAN_JAILINING.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_15_WENHUAGEXIN"
+		texturefile = "gfx/interface/goals/SOV/SOV_15_WENHUAGEXIN.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_16_JIANCHILUXIAN"
+		texturefile = "gfx/interface/goals/SOV/SOV_16_JIANCHILUXIAN.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_17_WENHEGAIGE"
+		texturefile = "gfx/interface/goals/SOV/SOV_17_WENHEGAIGE.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_18_JIEJI_DOUZHENG"
+		texturefile = "gfx/interface/goals/SOV/SOV_18_JIEJI_DOUZHENG.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_19_TEBIE_HUIYI"
+		texturefile = "gfx/interface/goals/SOV/SOV_19_TEBIE_HUIYI.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_20_FANDUI_SHIJIEZHUYI"
+		texturefile = "gfx/interface/goals/SOV/SOV_20_FANDUI_SHIJIEZHUYI.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_25_QI_HEI_DE_YE"
+		texturefile = "gfx/interface/goals/SOV/SOV_25_QI_HEI_DE_YE.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_SOV_26_DAN_GUANGMINGSHANGCUN"
+		texturefile = "gfx/interface/goals/SOV/SOV_26_DAN_GUANGMINGSHANGCUN.dds"			
+	}
+	#莫斯科第一阶段
+	SpriteType = {
+		name = "GFX_goal_MSK_1"
+		texturefile = "gfx/interface/goals/MSK/MSK_1_1_good.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_2"
+		texturefile = "gfx/interface/goals/MSK/MSK_1_2_zhenglibaogao.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_5"
+		texturefile = "gfx/interface/goals/MSK/MSK_1_5_wufachuji.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_3"
+		texturefile = "gfx/interface/goals/MSK/MSK_1_3_newidea.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_4"
+		texturefile = "gfx/interface/goals/MSK/MSK_1_7_huiyi.dds"			
+	}
+	SpriteType = {
+		name = "GFX_goal_MSK_6"
+		texturefile = "gfx/interface/goals/MSK/MSK_1_6_last.dds"			
+	}
+   #莫斯科第二阶段
+   SpriteType = {
+	name = "GFX_goal_MSK_2_1"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_1_puleshidds.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_2"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_2_pulushi.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_3"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_4_boke.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_4"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_3_saochuzapai.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_5"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_5_bestwuqi.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_6"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_last.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_7"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_runhuayou.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_8"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_12_shahete.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_9"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_9_jingjichongqi.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_10"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_10.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_11"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_8_jingjichongqi.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_12"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_gexinzhengt.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_13"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_7_kashe.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_14"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_SS.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_15"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_where_ss.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_16"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_we_pulushi.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_17"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_last_last_one.dds"			
+   }
+   SpriteType = {
+	name = "GFX_goal_MSK_2_18"
+	texturefile = "gfx/interface/goals/MSK/MSK_2_last_last_last.dds"			
+   }
+}

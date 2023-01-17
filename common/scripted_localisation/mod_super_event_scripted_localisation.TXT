@@ -1,0 +1,31 @@
+defined_text = { #苏联崩溃
+	name = GetChongZuNeiGeName
+	text = {
+		trigger = {
+			has_country_flag = SOV_benkui
+		}
+		localization_key = SOV_benkui_1
+	}
+	text = {
+		trigger = {
+			original_tag = XGM
+			has_government = wu_zheng_fu_zhu_yi
+		}
+		localization_key = CHONG_ZU_NEI_GE_NAME_WZF
+	}
+	text = {
+		trigger = {
+			original_tag = XGM
+			has_government = communism
+		}
+		localization_key = CHONG_ZU_NEI_GE_NAME_GC
+	}
+	text = {
+		trigger = {
+			original_tag = XGM
+			has_government = fascism
+		}
+		localization_key = CHONG_ZU_NEI_GE_NAME_FXS
+	}
+}
+

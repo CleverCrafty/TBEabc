@@ -1,0 +1,13 @@
+spriteTypes = {	
+
+	#### 测试用
+
+	SpriteType = {
+	name = "decision_black_market_money"
+	texturefile = "gfx/interface/decisions/jueyi_icon/decision_black_market_money.dds"			
+	}	
+	SpriteType = {
+		name = "AZH_decision_holy_crap_peter_griffin_from_family_guy_in_tno_ok_this_is_epic"
+		texturefile = "gfx/interface/decisions/money.dds"			
+		}	
+}	

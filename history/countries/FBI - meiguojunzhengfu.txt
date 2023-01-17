@@ -1,0 +1,44 @@
+﻿capital = 361
+
+oob = "LIT_1936"
+
+set_research_slots = 3
+
+if = {
+
+	add_ideas = {
+		
+	}
+}
+
+set_variable = {
+	var = iron_wolf_days_var
+	value = 100
+}
+
+recruit_character = FBI_MAIKE_ase
+
+
+
+
+set_technology = {
+
+}
+
+set_convoys = 10
+
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1926.5.8"
+	election_frequency = 1000
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 15
+	fascism = 25
+	communism = 5
+	neutrality = 55
+}
+

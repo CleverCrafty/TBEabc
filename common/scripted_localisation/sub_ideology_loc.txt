@@ -1,0 +1,39 @@
+defined_text = {
+    name = GetRulingIdeologySubtype
+	
+	text = {
+		trigger = {
+			has_country_leader_ideology = malie_subtype
+		}
+		localization_key = "malie_subtype"
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = colonialism_sub
+		}
+		localization_key = "colonialism_sub"
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Reichskommissariat_sub
+		}
+		localization_key = "Reichskommissariat_sub"
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = caretaker_cabinet_sub
+		}
+		localization_key = "caretaker_cabinet_sub"
+    }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = Interim_Government_sub
+		}
+		localization_key = "Interim_Government_sub"
+    }
+}
+

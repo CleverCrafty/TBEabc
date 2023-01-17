@@ -1,0 +1,37 @@
+spriteTypes = {
+	###乌克兰
+	spriteType = {
+		name = "GFX_idea_wukelan_minjin_1"
+		texturefile = "gfx/interface/ideas/wukelan_minjin_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wu_ke_lan_minjin_2"
+		texturefile = "gfx/interface/ideas/wu_ke_lan_minjin_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_wu_ke_lan_minjin_3"
+		texturefile = "gfx/interface/ideas/wu_ke_lan_minjin_3.dds"
+	}
+	########运输大队长的逆天debuff######
+	spriteType = {
+		name = "GFX_idea_KMT_101_hongzha"
+		texturefile = "gfx/interface/ideas/KMT_101_hongzha.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KMT_dangnei_touxiangpai"
+		texturefile = "gfx/interface/ideas/KMT_dangnei_touxiangpai.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KMT_jihuang"
+		texturefile = "gfx/interface/ideas/KMT_jihuang.dds"
+	}
+	#####安道尔
+	spriteType = {
+		name = "GFX_idea_ADR_DAGONG"
+		texturefile = "gfx/interface/ideas/ADR_DAGONG.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ADR_zousizhongzheng"
+		texturefile = "gfx/interface/ideas/ADR_zousizhongzheng.dds"
+	}
+}

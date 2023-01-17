@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_news_generic"
+		textureFile = "gfx/event_pictures/news_generic.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_ger_nazi"
+		textureFile = "gfx/event_pictures/news_ger_nazi.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_prc"
+		textureFile = "gfx/event_pictures/news_prc.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_news_USA_minzhu"
+		textureFile = "gfx/news_papers_bao_tou/event_USA_MINZHU.dds"
+		legacy_lazy_load = no
+	}
+}

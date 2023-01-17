@@ -1,0 +1,187 @@
+spriteTypes = {
+
+	spriteType = {
+        name = "GFX_bookmark_TBE_Russia"
+        texturefile = "gfx/interface/TBE_bookmark_icon/TBE_bookmark_Russia.dds"
+    }
+	spriteType = {
+        name = "GFX_bookmark_TBE_America"
+        texturefile = "gfx/interface/TBE_bookmark_icon/TBE_bookmark_America.dds"
+    }
+	spriteType = {
+        name = "GFX_bookmark_TBE_Asia"
+        texturefile = "gfx/interface/TBE_bookmark_icon/TBE_bookmark_Asia.dds"
+    }
+	spriteType = {
+        name = "GFX_bookmark_TBE_Europe"
+        texturefile = "gfx/interface/TBE_bookmark_icon/TBE_bookmark_Europe.dds"
+    }
+
+	spriteType = {
+        name = "GFX_TBE_button"
+        texturefile = "gfx/interface/TBE_bookmark_icon/TBE_button.dds"
+    }
+	spriteType = {
+        name = "GFX_TBE_button_2"
+        texturefile = "gfx/interface/TBE_bookmark_icon/TBE_button_2.dds"
+    }
+
+	frameanimatedspritetype = {
+		name = "GFX_world_tension_globe_animation"
+		textureFile = "gfx/interface/TBE_bookmark_icon/tension_globe_animation.png"
+		noOfFrames = 30
+		animation_rate_fps = 5
+		play_on_show = yes
+		#transparencecheck = yes
+		looping = yes
+	}
+
+	frameanimatedspritetype = {
+		name = "TBE_animation"
+		textureFile = "gfx/interface/TBE_bookmark_icon/TBE_animation_3.png"
+		noOfFrames = 160
+		animation_rate_fps = 5
+		play_on_show = yes
+		#transparencecheck = yes
+		looping = yes
+	}
+	spriteType = {
+		name = "GFX_TBE_main_bg"
+		texturefile = "gfx/interface/TBE_bookmark_icon/TBE_main_bg.png"
+	}
+	spriteType = {
+		name = "GFX_TBE_main_bg_2"
+		texturefile = "gfx/interface/TBE_bookmark_icon/TBE_main_bg_2.png"
+	}
+	frameanimatedspritetype = {
+		name = "GFX_TBE_ani_1"
+		textureFile = "gfx/interface/TBE_bookmark_icon/am_1.png"
+		noOfFrames = 160
+		animation_rate_fps = 5
+		play_on_show = yes
+		#transparencecheck = yes
+		looping = yes
+	}
+	frameanimatedspritetype = {
+		name = "GFX_TBE_ani_2"
+		textureFile = "gfx/interface/TBE_bookmark_icon/am_2.png"
+		noOfFrames = 160
+		animation_rate_fps = 5
+		play_on_show = yes
+		#transparencecheck = yes
+		looping = yes
+	}
+	frameanimatedspritetype = {
+		name = "GFX_TBE_ani_3"
+		textureFile = "gfx/interface/TBE_bookmark_icon/am_3.png"
+		noOfFrames = 160
+		animation_rate_fps = 5
+		play_on_show = yes
+		#transparencecheck = yes
+		looping = yes
+	}
+	frameanimatedspritetype = {
+		name = "GFX_TBE_ani_4"
+		textureFile = "gfx/interface/TBE_bookmark_icon/am_4.png"
+		noOfFrames = 160
+		animation_rate_fps = 5
+		play_on_show = yes
+		#transparencecheck = yes
+		looping = yes
+	}
+	frameanimatedspritetype = {
+		name = "GFX_TBE_HOI_logo"
+		textureFile = "gfx/interface/TBE_bookmark_icon/TBE_HOI_logo.png"
+		noOfFrames = 36
+		animation_rate_fps = 4
+		play_on_show = yes
+		#transparencecheck = yes
+		looping = yes
+	}
+	frameanimatedspritetype = {
+		name = "GFX_TBE_logo"
+		textureFile = "gfx/interface/TBE_bookmark_icon/TBE_logo.png"
+		noOfFrames = 24
+		animation_rate_fps = 12
+		play_on_show = yes
+		#transparencecheck = yes
+		looping = yes
+	}
+
+	frameanimatedspritetype = {
+		name = "GFX_TBE_crash"
+		textureFile = "gfx/interface/TBE_bookmark_icon/TBE_crash.png"
+		noOfFrames = 8
+		animation_rate_fps = 5
+		play_on_show = yes
+		#transparencecheck = yes
+		looping = yes
+	}
+
+	spriteType = {
+		name = "GFX_TBE_main_botton_1"
+		texturefile = "gfx/interface/TBE_bookmark_icon/TBE_botton_1.png"
+	}
+	spriteType = {
+		name = "GFX_TBE_main_botton_2"
+		texturefile = "gfx/interface/TBE_bookmark_icon/TBE_botton_2.png"
+	}
+	spriteType = {
+		name = "GFX_TBE_main_botton_3"
+		texturefile = "gfx/interface/TBE_bookmark_icon/TBE_botton_3.png"
+	}
+	spriteType = {
+		name = "GFX_TBE_main_botton_4"
+		texturefile = "gfx/interface/TBE_bookmark_icon/TBE_botton_4.png"
+	}
+
+	spriteType = {
+		name = "GFX_TBE_main_botton_5"
+		texturefile = "gfx/interface/TBE_bookmark_icon/TBE_botton_5.png"
+	}
+
+	spriteType = {
+		name = "GFX_TBE_cross_icon"
+		texturefile = "gfx/interface/TBE_bookmark_icon/TBE_cross_icon.png"
+	}
+
+
+
+    spriteType = {
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/authoritarian/despotism_group.dds"
+	}
+
+    spriteType = {
+		name = "GFX_ideology_national_socialism_group"
+		texturefile = "gfx/interface/ideologies/nazi_icon.dds"
+	}
+
+    spriteType = {
+		name = "GFX_ideology_extreme_militarism_group"
+		texturefile = "gfx/interface/ideologies/Authoritarianism_icon.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_authoritarian_group"
+		texturefile = "gfx/interface/ideologies/Authoritarianism_icon.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_conservative_group"
+		texturefile = "gfx/interface/ideologies/democracy/conservatism.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_liberal_group"
+		texturefile = "gfx/interface/ideologies/liberal_group.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_social_democracy_group"
+		texturefile = "gfx/interface/ideologies/shehui_minzhu.dds"
+	}
+    spriteType = {
+		name = "GFX_ideology_social_group"
+		texturefile = "gfx/interface/ideologies/socialism.dds"
+	}
+
+
+
+}
