@@ -36,26 +36,16 @@
 		}
 		localization_key = TBE_PEACE_POPUP_FLAVOR_2_changzheng_sile
 	}
-	text = {
-		localization_key = TBE_PEACE_POPUP_WAR_CONCLUSION_no_war
-	}
+	
 	text = {
 		trigger = {
 			event_target:winning_country = {
-				original_tag = DSK
-				original_tag = HDL
 				original_tag = GBD
-				original_tag = HSD
-				original_tag = GDL
 
 			}
 			event_target:losing_country = {
-				original_tag = PRC	
 				original_tag = DSK
-				original_tag = HDL
-				original_tag = GBD
-				original_tag = HSD
-				original_tag = GDL		
+					
 			}
 		}
 		localization_key = TBE_PEACE_POPUP_FLAVOR_GER_CILIVAL_WAR
@@ -66,23 +56,6 @@
 }
 
 
-defined_text = {
-	name = GetFlavor
-	text = {
-		trigger = {
-			AND = {
-				event_target:winning_country = {
-					original_tag = GER
-				}
-				event_target:losing_country = {
-					original_tag = BFJ
-				}	
-			}
-
-		}
-		localization_key = TBE_PEACE_POPUP_FLAVOR_SOV
-	}
-}
 defined_text = {
 	name = GetFlavor
 	text = {
