@@ -681,5 +681,9 @@ spriteTypes = {
 		name = "GFX_ideology_Holy_See_of_Theocracy_sub"
 		textureFile = "gfx/interface/ideologies/Conservatism/Holy_See_of_Theocracy_sub.dds"
 	}
+	spriteType = {
+		name = "GFX_ideology_army_gvoment_sub"
+		textureFile = "gfx/interface/ideologies/despotism/army_gvoment_sub.dds"
+	}
 	
 }

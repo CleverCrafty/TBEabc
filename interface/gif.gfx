@@ -37,7 +37,7 @@ spriteTypes = {
 		name = "GFX_four_pep"
 		texturefile = "gfx/leaders/GER/GER_four_p.dds"
 		noOfFrames = 85
-		animation_rate_fps = 10
+		animation_rate_fps = 8
 		looping = yes
 		play_on_show = yes
 		

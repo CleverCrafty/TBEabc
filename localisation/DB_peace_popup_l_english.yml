@@ -326,5 +326,5 @@
  TBE_PEACE_POPUP_FLAVOR_KMT: "白日被残红浸染，迎来了太阳升起的地方，禹域大地上被自己曾经的学徒征服"
  TBE_PEACE_POPUP_FLAVOR_2_changzheng_sile: "随着§Y[winning_country.GetNameWithFlag]§!及其主人的旭日旗插在了§Y[losing_country.GetNameWithFlag]§!延安的山岗之上，\n二次长征计划胎死腹中，未来的希望之光黯淡。"
  TBE_PEACE_POPUP_FLAVOR_PRC: "问苍茫大地，谁主沉浮"
- TBE_PEACE_POPUP_FLAVOR_GER_CILIVAL_WAR: "在雅利安民族的红羊劫年之中，白骨露野，"
+ TBE_PEACE_POPUP_FLAVOR_GER_CILIVAL_WAR: "在雅利安民族的红羊劫年之中，白骨露野，\n§Y[winning_country.GetNameWithFlag]§!的将士将§Y[losing_country.GetNameWithFlag]§!碾碎扯烂，扔下天空。\n一个国家，一个民族，§R一个元首！§!"
  TBE_PEACE_POPUP_FLAVOR_DSK: "最终，新观念的建立者还是战胜了马匹，大炮还是战胜了长矛。"

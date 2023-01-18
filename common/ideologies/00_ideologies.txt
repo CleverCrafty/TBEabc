@@ -50,6 +50,7 @@ ideologies = {
 			colonialism_sub = { } #殖民政府
 			WANG_jinwei_ism = { } #汪精卫罕见思想
 			caretaker_cabinet_sub = { } #过渡政府（专制类
+			army_gvoment_sub = { } #军政府
 		}
 		
 		dynamic_faction_names = {

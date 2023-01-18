@@ -16,17 +16,17 @@ spritetypes = {
 
 	spriteType = {
 		name = "GFX_econ_sphere_icon_GER"
-		textureFile = "gfx/interface/custom_map_modes/icon/EHP_GER_sphere_icon.dds"
+		textureFile = "gfx/interface/custom_map_modes/TBE_icon/TBE_GER_icon.dds"
 	}
 
 	spriteType = {
 		name = "GFX_econ_sphere_icon_ZV_GER"
-		textureFile = "gfx/interface/custom_map_modes/icon/ZV_GER_sphere_icon.dds"
+		textureFile = "gfx/interface/custom_map_modes/TBE_icon/TBE_GER_icon.dds"
 	}
 
 	spriteType = {
 		name = "GFX_econ_sphere_icon_JAP"
-		textureFile = "gfx/interface/custom_map_modes/icon/CPS_JAP_sphere_icon.dds"
+		textureFile = "gfx/interface/custom_map_modes/TBE_icon/TBE_JAP_icon.dds"
 	}
 
 	spriteType = {

@@ -1,10 +1,9 @@
 scripted_map_modes = {
 	tbe_map_mode = {
-		top = { type = none }
-		bottom = {
+		top = {
 			type = country
 			color = {
-				set_temp_variable = { alpha_temp = 0.95 }
+				set_temp_variable = { alpha_temp = 0.7 }
 				if = {
 					limit = {
 						FROM = {
@@ -22,9 +21,9 @@ scripted_map_modes = {
 							check_variable = { ECON_SPHERE_LEADER = JAP }
 						}
 					}
-					set_temp_variable = { red = 0.506 }
-					set_temp_variable = { green = 0.074 }
-					set_temp_variable = { blue = 0.180 }
+					set_temp_variable = { red = 1 }
+					set_temp_variable = { green = 0.753 }
+					set_temp_variable = { blue = 0.796 }
 					set_temp_variable = { alpha = alpha_temp }
 				}
 				else_if = {
@@ -58,6 +57,7 @@ scripted_map_modes = {
 				}
 			}
 		}
+		bottom = { type = none }
 
 		far_text = country
 		near_text = none

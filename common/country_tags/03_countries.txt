@@ -1,0 +1,35 @@
+BFJ = "countries/beifajunqu.txt"
+BNL = "countries/yingelan.txt"
+
+HSG = "countries/heishan.txt"
+VSF = "countries/weixi.txt"
+
+
+ZYF = "countries/ziyoufaguo.txt"
+WKL = "countries/wukelan.txt"
+WRS = "countries/weiershi.txt"
+SGL = "countries/sugelan.txt"
+
+BLJ = "countries/buliediejun.txt"
+BLT = "countries/bulietani.txt"
+BXY = "countries/boximiya.txt"
+SRW = "countries/saierweiya.txt"
+MSK = "countries/mosike.txt"
+FRJ = "countries/fuerjia.txt"
+GJS = "countries/gaojiasuo.txt"
+
+FBI = "countries/meiguojunzhengfu.txt"
+WHE = "countries/weiheyingguo.txt"
+SOC = "countries/xibumeiguo.txt"
+DKX = "countries/dikexi.txt"
+MGD = "countries/beifangzhengfu.txt"
+KMT = "countries/kaomantou.txt"
+
+
+AKA = "countries/bolanfanxiangjun.txt"
+ADR = "countries/andaoer.txt"
+BLW = "countries/bilishi_but_no_home.txt"
+RRP = "countries/Russian_Republic.txt"
+FDG = "countries/fandigang.txt"
+DSK = "countries/Deutsche_Streitkrafte.txt"
+GBD = "countries/gepeier_ger.txt"

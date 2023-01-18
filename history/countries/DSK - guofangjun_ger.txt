@@ -25,7 +25,7 @@ set_technology = {
 }
 
 
-
+set_country_flag = ger_cw
 
 add_ideas = {
 	

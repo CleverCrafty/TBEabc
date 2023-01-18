@@ -1,6 +1,6 @@
 characters = {
 	DSK_four_people = {
-		name="国防军总指挥部——“四人帮”"
+		name="国防军总指挥部"
 		portraits = {
 			civilian = {
 				large="GFX_four_pep"
@@ -8,7 +8,7 @@ characters = {
 		}
 		country_leader = {
 			desc = "POLITICS_four_pepole_DESC"
-			ideology=despotism_subtype
+			ideology=army_gvoment_sub
 			traits = { }
 			expire="1965.1.1.1"
 			id=-1

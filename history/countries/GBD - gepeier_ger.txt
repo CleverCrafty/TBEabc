@@ -1,0 +1,65 @@
+﻿capital = 50
+
+oob = "GER_1936"
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	trench_warfare = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	basic_train = 1
+}
+
+
+
+recruit_character = ADR_baolisi
+
+
+set_country_flag = ger_cw
+
+
+set_convoys = 10
+
+set_politics = {
+ruling_party = national_socialism # 波兰家乡军 填执政党 就是下面那几个意识形态
+last_election = "1939.5.8" #不用管
+election_frequency = 1000 #不用管
+elections_allowed = no #不用管
+}
+set_popularities = {
+extreme_militarism = 0 #极端军国主义 国社党-军国派
+national_socialism = 100 #民族社会主义 国社党-忠诚派
+fascism = 0 #法西斯 国社党-温和派
+despotism = 0 #专制主义 国社党-戈林派
+authoritarian = 0 #威权主义 国社党-改革派
+conservative = 0 #保守主义 国社党-中立派
+liberal = 0 #自由主义 国社党-反动派
+social_democracy = 0 #社会民主主义 国社党-反动派
+social = 0 #社会主义 国社党-反动派
+communism = 0 #共产主义 德共
+}
+
+
+
+recruit_character = ADR_baolisi
+
+
+
+
+
+
+# 1939 Start #
+

@@ -9,7 +9,7 @@ characters = {
 		country_leader={
 			desc = "POLITICS_gangse_DESC"
 			ideology = nazism
-			trait s= {  }
+			traits= {  }
 			expire="1999.1.1.1"
 		}
 	}

@@ -2,3 +2,12 @@
  MAPMODE_TBE_MAP_MODE:0 "TBE地图"
  MAPMODE_TBE_MAP_MODE_NAME:0 "TBE阵营地图"
  MAPMODE_TBE_MAP_MODE_DESCRIPTION:0 "打开查看TBE阵营地图"
+
+ tbe_map_mode_tooltip:0 "§Y[FROM.Controller.GetTBEMapmodeName]§!"
+ tbe_map_mode_tooltip_delayed:0 "§F§Y[FROM.Controller.GetNameWithFlag]§! 是 §Y[FROM.Controller.GetTBEMapmodeName]§!的成员"
+ TBE_no_mapmode:0 "无阵营"
+ TBE_mapmode_GER:0 "北海-黑海联合防御条约"
+ TBE_mapmode_JAP:0 "共荣圈"
+ TBE_mapmode_SOV:0 "共产国际"
+ TBE_mapmode_USA:0 "华盛顿公约"
+

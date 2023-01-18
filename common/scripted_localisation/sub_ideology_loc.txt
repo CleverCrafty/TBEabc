@@ -35,5 +35,12 @@ defined_text = {
 		}
 		localization_key = "Interim_Government_sub"
     }
+
+	text = {
+		trigger = {
+			has_country_leader_ideology = army_gvoment_sub
+		}
+		localization_key = "army_gvoment_sub"
+    }
 }
 

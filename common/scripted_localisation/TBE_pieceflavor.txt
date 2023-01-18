@@ -1,4 +1,4 @@
-defined_text = {
+﻿defined_text = {
 	name = GetWarConclusionLoc
 	text = {
 		trigger = {
@@ -40,22 +40,12 @@ defined_text = {
 	text = {
 		trigger = {
 			event_target:winning_country = {
-				OR = {
-					original_tag = DSK
-					original_tag = HDL
-					original_tag = GBD
-					original_tag = HSD
-					original_tag = GDL	
-				}
+				original_tag = GBD
+
 			}
 			event_target:losing_country = {
-				OR = {
-					original_tag = DSK
-					original_tag = HDL
-					original_tag = GBD
-					original_tag = HSD
-					original_tag = GDL	
-				}
+				original_tag = DSK
+					
 			}
 		}
 		localization_key = TBE_PEACE_POPUP_FLAVOR_GER_CILIVAL_WAR

@@ -121,4 +121,39 @@
 		localization_key = "GFX_econ_sphere_icon_none"
 	}
 }
+defined_text = {
+	name = GetTBEMapmodeName
+	text = {
+		trigger = {
+			check_variable = { ECON_SPHERE_LEADER = GER }
+		}
+		localization_key = TBE_mapmode_GER
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = JAP } }
+		localization_key = TBE_mapmode_JAP
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = SOV } }
+		localization_key = TBE_mapmode_SOV
+	}
+	text = {
+		trigger = { check_variable = { ECON_SPHERE_LEADER = USA } }
+		localization_key = TBE_mapmode_USA
+	}
+	text = { localization_key = "TBE_no_mapmode" }
+}
+
+defined_text = {
+	name = GetSphereLeaderTooltip
+	text = {
+		trigger = {
+			has_variable = ECON_SPHERE_LEADER
+		}
+
+		localization_key = econ_sphere_has_leader
+	}
+	text = { localization_key = "" }
+}
+
 
